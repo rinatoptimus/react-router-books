@@ -32,15 +32,15 @@ Based on this tutorial https://scotch.io/tutorials/routing-react-apps-the-comple
 
 ##### 6) .babelrc:
 #### {
-  #### "presets" : ["es2015", "react"]
+#### "presets" : ["es2015", "react"]
 #### }
 ##### 7) Add to package.json:
 #### "scripts": {
-   #### "watch" : "webpack -d --watch",
-   #### "build" : "webpack",
-   #### "serve" : "serve ./public"
- #### }
- ##### 8) npm install react react-dom react-router --save
- ##### 9) npm run watch
- ##### 10) In another Terminal window: 
- #### npm run serve
+#### "watch" : "webpack -d --watch",
+#### "build" : "webpack",
+#### "serve" : "serve ./public"
+#### }
+##### 8) npm install react react-dom react-router --save
+##### 9) npm run watch
+##### 10) In another Terminal window: 
+#### npm run serve
