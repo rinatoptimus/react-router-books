@@ -1,5 +1,4 @@
 ## React Router 
-Based on this tutorial https://scotch.io/tutorials/routing-react-apps-the-complete-guide
 ##### 1) npm init
 ##### 2) npm install webpack babel-loader babel-preset-es2015 babel-preset-react serve --save-dev
 ##### 3) touch webpack.config.js
