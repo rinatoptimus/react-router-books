@@ -11,10 +11,10 @@ Based on this tutorial https://scotch.io/tutorials/routing-react-apps-the-comple
 #### var APP_DIR = path.resolve(__dirname, 'src');
 
 #### var config = {
-  #### entry: APP_DIR + '/index.jsx',
-  #### output: {
-    #### path: BUILD_DIR,
-    #### filename: 'bundle.js'
+#### entry: APP_DIR + '/index.jsx',
+#### output: {
+#### path: BUILD_DIR,
+#### filename: 'bundle.js'
   #### },
   #### module : {
     #### loaders : [
