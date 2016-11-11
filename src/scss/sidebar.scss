@@ -1,0 +1,82 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.container-sidebar {
+  display: flex;
+}
+.sidebar {
+  min-width: 70px;
+  z-index: 10;
+  position: absolute;
+  width: 96%;
+  background-color: $bg-violet;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  /*@include tablet {
+    position: relative;
+    width: auto;
+    flex-direction: column;
+  }*/
+  @media (min-width: 48em) {
+    position: relative;
+    /* test width: auto;*/
+    width: 4vw;
+    flex-direction: column;
+  }
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /*@include tablet {
+      display: block;
+    }*/
+    @media (min-width: 48em) {
+      display: block;
+    }
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+      /*@include tablet {
+        &:first-child {
+          margin-bottom: 1em;
+        }
+      }*/
+      @media (min-width: 48em) {
+        &:first-child {
+          margin-bottom: 1em;
+        }
+      }
+    }
+    li {
+      padding-top: 10px;
+    }
+    .sidebar-item {
+      &.active,
+      &:hover {
+        background-color: $bg-violet-dark;
+      }
+      a {
+        display: flex;
+        height: 64px;
+        line-height: 20px;
+        text-align: left;
+        font-size: 32px;
+        color: white;
+        padding: 0 4px;
+        text-decoration: none;
+
+        flex-direction: column;
+        text-align: center;
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

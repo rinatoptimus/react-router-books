@@ -1,0 +1,72 @@
+@import './variables.scss';
+@import './common.scss';
+@import './mixins.scss';
+
+.content {
+  height: 100%;
+  width: 98%;
+  padding-top: 5em;
+  /*@include tablet {
+    padding-top: 1em;
+  }*/
+  @media (min-width: 48em) {
+    padding-top: 1em;
+  }
+    .content-main {
+      margin-top: 10px;
+      /*@include tablet {
+        margin-top: 0;
+      }*/
+      @media (min-width: 48em) {
+        margin-top: 0;
+      }
+    }
+}
+
+.content-tabs {
+  padding-bottom: 15px;
+  border-bottom: none;
+    li {
+      .btn-secondary {
+        border-color: transparent;
+      }
+      .btn-secondary.active {
+        background-color: $bg-violet;
+        outline: none;
+        color: $white;
+        &:focus {
+          background-color: $bg-violet;
+        }
+      }
+    }
+}
+.table-my-books {
+  thead {
+    tr {
+      .th-number {
+        //width: 4vw;
+        text-align: center;
+      }
+    }
+  }
+  tbody {
+    tr {
+      th {
+        width: 4vw;
+        background-color: #F2F2F2;
+        text-align: center;
+        vertical-align: middle;
+      }
+      td {
+        p {
+          margin: 0;
+          padding: 0;
+        }
+        .author {
+          font-size: 13px;
+          color: $grey-light;
+        }
+      }
+    }
+  }
+}

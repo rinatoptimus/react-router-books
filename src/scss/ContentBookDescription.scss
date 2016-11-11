@@ -1,0 +1,113 @@
+@import './variables.scss';
+@import './common.scss';
+@import './mixins.scss';
+
+.container-book-descr {
+  color: $grey-dark;
+  display: flex;
+  flex-direction: column;
+  /*@include tablet {
+    flex-direction: row;
+  }*/
+  @media (min-width: 48em) {
+    flex-direction: row;
+  }
+    .book-profile {
+      display: flex;
+      flex-direction: row;
+      //min-width: 23%;
+      /*@include tablet {
+        flex-direction: column;
+      }*/
+      @media (min-width: 48em) {
+        flex-direction: column;
+      }
+        .table-book-profile {
+          width: 75%;
+          /*@include tablet {
+            width: 100%;
+          }*/
+          @media (min-width: 48em) {
+            width: 100%;
+          }
+        }
+        .container-img {
+          max-width: 20vw;
+          margin-right: 15px;
+          /*@include tablet {
+            margin-right: 0;
+          }*/
+          @media (min-width: 48em) {
+            margin-right: 0;
+          }
+            img {
+              width: 100%;
+            }
+        }
+    }
+    .book-content {
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 15px;
+        .tab-content {
+          .tab-pane {
+            .card-textarea {
+              background-color: $bg-violet;
+                form {
+                  fieldset {
+                    .btn-success {
+                      .fa-plus-circle {
+                        font-size: 15px;
+                      }
+                    }
+                  }
+                }
+            }
+            .citatio-item {
+              display: flex;
+              flex-direction: row-reverse;
+              justify-content: space-between;
+              background-color: $bg-grey-lighter;
+                .card-block {
+                  blockquote {
+                    p {
+                      margin-bottom: 0;
+                        .fa {
+                          color: $grey;
+                          font-size: 18px;
+                        }
+                        .fa-quote-left {
+                          margin-right: 5px;
+                        }
+                        .fa-quote-right {
+                          margin-left: 5px;
+                        }
+                    }
+                  }
+                }
+                .card-header {
+                  min-width: 14%;
+                  background-color: $white;
+                  border-bottom: none;
+                  /*@include tablet {
+                    min-width: 7%;
+                  }*/
+                  @media (min-width: 48em) {
+                    min-width: 7%;
+                  }
+                    p {
+                      margin-bottom: 0em;
+                      margin-top: 1em;
+                      font-size: 13px;
+                    }
+                    .fa {
+                      margin-right: 3px;
+                      font-size: 13px;
+                      color: $grey;
+                    }
+                }
+            }
+          }
+        }
+    }
+}
