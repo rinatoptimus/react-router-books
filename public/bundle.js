@@ -73,27 +73,29 @@
 	
 	var _homeComponent2 = _interopRequireDefault(_homeComponent);
 	
-	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 247);
+	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 248);
 	
 	var _bookDetailComponent2 = _interopRequireDefault(_bookDetailComponent);
 	
-	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 248);
+	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 249);
 	
 	var _aboutComponent2 = _interopRequireDefault(_aboutComponent);
 	
-	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 249);
+	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 250);
 	
 	var _carComponent2 = _interopRequireDefault(_carComponent);
 	
-	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 250);
+	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 251);
 	
 	var _carDetailComponent2 = _interopRequireDefault(_carDetailComponent);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(/*! ./scss/App.scss */ 251);
+	__webpack_require__(/*! ./scss/App.scss */ 252);
 	
 	//import data from './common/books.json';
+	
+	//import TopBarRouter from './common/top-bar-router-delete.component.jsx'
 	
 	// Import routing components
 	
@@ -146,13 +148,8 @@
 	    media: 'http://media.ed.edmunds-media.com/dodge/viper/2017/oem/2017_dodge_viper_coupe_acr_fq_oem_3_717.jpg',
 	    price: '$123,890'
 	}];
-	//const data = require('books.json');
-	//import data from './common/books.json';
 	
-	
-	//
-	(0, _reactDom.render)(_react2.default.createElement(_topbarComponent2.default, null), document.getElementById("topbar"));
-	//
+	(0, _reactDom.render)(_react2.default.createElement(_topbarComponent2.default, null), document.getElementById('topbar'));
 	
 	(0, _reactDom.render)(_react2.default.createElement(
 	    _reactRouter.Router,
@@ -28610,6 +28607,10 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
+	var _books = __webpack_require__(/*! ./books.json */ 245);
+	
+	var _books2 = _interopRequireDefault(_books);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28618,8 +28619,14 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	//import config from './books.json';
-	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 245);
+	//import DATA from './books.json';
+	
+	
+	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 246);
+	
+	/*console.log(books.books.book1.author);
+	const data = [books.books];
+	console.log(data);*/
 	
 	var Home = function (_Component) {
 					_inherits(Home, _Component);
@@ -28633,18 +28640,27 @@
 					_createClass(Home, [{
 									key: 'render',
 									value: function render() {
-													// Get data from route props
-													var books = this.props.route.data;
 	
-													// Map through cars and return linked cars
-													var carNode = books.map(function (book) {
+													// Get data from route props
+													// original const books = this.props.route.data;
+	
+													/*const data = require('./books.json'); 
+	            console.log(data.book1.genre);*/
+													var json = [_books2.default.books];console.log(json);
+													for (var i = 0; i < json.length; i++) {
+																	//console.log(json[i].book1);
+																	console.log(json[i].books);
+																	//console.log(json.books[i]);
+													}
+	
+													var carNode = Object.keys(_books2.default.books).map(function (item) {
 																	return _react2.default.createElement(
 																					'tr',
 																					null,
 																					_react2.default.createElement(
 																									'th',
-																									{ scope: 'row' },
-																									book.id
+																									null,
+																									_books2.default.books[item].id
 																					),
 																					_react2.default.createElement(
 																									'td',
@@ -28655,20 +28671,22 @@
 																													_react2.default.createElement(
 																																	_reactRouter.Link,
 																																	{
-																																					to: "books/" + book.id,
+																																					to: "books/" + _books2.default.books[item].id,
 	
-																																					key: book.id },
-																																	book.name
+																																					key: _books2.default.books[item].id
+																																	},
+																																	_books2.default.books[item].name
 																													)
 																									),
 																									_react2.default.createElement(
 																													'p',
 																													{ className: 'author' },
-																													book.author
+																													_books2.default.books[item].author
 																									)
 																					)
 																	);
 													});
+	
 													return _react2.default.createElement(
 																	'div',
 																	{ className: 'container-fluid content-main' },
@@ -28833,6 +28851,70 @@
 
 /***/ },
 /* 245 */
+/*!*******************************!*\
+  !*** ./src/common/books.json ***!
+  \*******************************/
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	module.exports = {
+		"books": {
+			"book1": {
+				"id": 1,
+				"name": "Трудно быть богом",
+				"author": "Стругацкие",
+				"genre": "Фантастика",
+				"model": "2013",
+				"make": "288 ",
+				"media": "http://media.ed.edmunds-media.com/honda/accord-crosstour/2010/oem/2010_honda_accord-crosstour_4dr-hatchback_ex-l_fq_oem_4_500.jpg",
+				"price": "$16,811"
+			},
+			"book2": {
+				"id": 2,
+				"name": "Отцы и дети",
+				"author": "Тургенев",
+				"year": "Проза",
+				"model": "AMG",
+				"make": "Mercedes Benz",
+				"media": "http://media.ed.edmunds-media.com/mercedes-benz/amg-gt/2016/oem/2016_mercedes-benz_amg-gt_coupe_s_fq_oem_1_717.jpg",
+				"price": "$138,157"
+			},
+			"book3": {
+				"id": 3,
+				"name": "Война и мир",
+				"author": "Толстой",
+				"year": "Проза",
+				"model": "X6",
+				"make": "BMW",
+				"media": "http://media.ed.edmunds-media.com/bmw/x6/2016/oem/2016_bmw_x6_4dr-suv_xdrive50i_fq_oem_1_717.jpg",
+				"price": "$68,999"
+			},
+			"book4": {
+				"id": 4,
+				"name": "Марсианские хроники",
+				"author": "Брэдбери",
+				"year": "Фантастика",
+				"model": "Edge",
+				"make": "Ford",
+				"media": "http://media.ed.edmunds-media.com/ford/edge/2016/oem/2016_ford_edge_4dr-suv_sport_fq_oem_6_717.jpg",
+				"price": "$36,275"
+			},
+			"book5": {
+				"id": 5,
+				"name": "Евгений Онегин",
+				"author": "Пушкин",
+				"year": "Стихи",
+				"model": "Viper",
+				"make": "Dodge",
+				"media": "http://media.ed.edmunds-media.com/dodge/viper/2017/oem/2017_dodge_viper_coupe_acr_fq_oem_3_717.jpg",
+				"price": "$123,890"
+			}
+		}
+	};
+
+/***/ },
+/* 246 */
 /*!******************************************!*\
   !*** ./src/scss/ContentMyBooksList.scss ***!
   \******************************************/
@@ -28841,7 +28923,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 246);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 247);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -28861,7 +28943,7 @@
 	}
 
 /***/ },
-/* 246 */
+/* 247 */
 /*!****************************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/ContentMyBooksList.scss ***!
   \****************************************************************************/
@@ -28878,7 +28960,7 @@
 
 
 /***/ },
-/* 247 */
+/* 248 */
 /*!**********************************************!*\
   !*** ./src/common/book-detail.component.jsx ***!
   \**********************************************/
@@ -29271,7 +29353,7 @@
 	exports.default = BookDetail;
 
 /***/ },
-/* 248 */
+/* 249 */
 /*!****************************************!*\
   !*** ./src/common/about.component.jsx ***!
   \****************************************/
@@ -29323,7 +29405,7 @@
 	exports.default = About;
 
 /***/ },
-/* 249 */
+/* 250 */
 /*!***********************************!*\
   !*** ./src/car/car.component.jsx ***!
   \***********************************/
@@ -29399,7 +29481,7 @@
 	exports.default = Car;
 
 /***/ },
-/* 250 */
+/* 251 */
 /*!******************************************!*\
   !*** ./src/car/car-detail.component.jsx ***!
   \******************************************/
@@ -29544,7 +29626,7 @@
 	exports.default = CarDetail;
 
 /***/ },
-/* 251 */
+/* 252 */
 /*!***************************!*\
   !*** ./src/scss/App.scss ***!
   \***************************/
@@ -29553,7 +29635,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 252);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 253);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -29573,7 +29655,7 @@
 	}
 
 /***/ },
-/* 252 */
+/* 253 */
 /*!*************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/App.scss ***!
   \*************************************************************/

@@ -12,6 +12,8 @@ import BookDetail from './common/book-detail.component.jsx'
 
 //import data from './common/books.json';
 
+//import TopBarRouter from './common/top-bar-router-delete.component.jsx'
+
 import About from './common/about.component.jsx'
 import Car from './car/car.component.jsx'
 import CarDetail from './car/car-detail.component.jsx'
@@ -72,16 +74,11 @@ const data = [
         price: '$123,890'
     }
 ];
-//const data = require('books.json');
-//import data from './common/books.json';
- 
 
-//
 render(
   <Topbar />,
-  document.getElementById("topbar")
+  document.getElementById('topbar')
 );
-//
 
 render(
     <Router history={browserHistory}>

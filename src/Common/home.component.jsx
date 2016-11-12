@@ -1,36 +1,50 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-//import config from './books.json';
+
+//import DATA from './books.json';
+import data from './books.json';
+
 require ('./../scss/ContentMyBooksList.scss'); 
+
+/*console.log(books.books.book1.author);
+const data = [books.books];
+console.log(data);*/
 
 class Home extends Component {
     render(){
         // Get data from route props
-        const books = this.props.route.data;
+        // original const books = this.props.route.data;
+        
+        /*const data = require('./books.json'); 
+		console.log(data.book1.genre);*/
+		/*var json = [data.books];console.log(json);
+		for (var i = 0 ; i < json.length ; i++) {
+			//console.log(json[i].book1);
+			console.log(json[i].books);
+			//console.log(json.books[i]);
+		}*/
         
 
-        // Map through cars and return linked cars
-        const carNode = books.map((book) => {
-            return (
-            	<tr>
-            		<th scope="row">{book.id}</th>
-            		<td>
-	            		<p>
-	            			<Link
-			                    to={"books/"+book.id}
+        const carNode = Object.keys(data.books).map(item => 
+        	{return (
+        		<tr>
+        			<th>{data.books[item].id}</th>
+        			<td>
+        				<p>
+        					<Link
+        					to={"books/"+data.books[item].id}
 			                    
-			                    key={book.id}>
-			                    {book.name}		                    
-			                </Link>
-	            		</p>
-	            		<p className="author">{book.author}</p>
-	            	</td>
-            	</tr>
-                
-            )
-        });
-        return (
+			                    key={data.books[item].id}
+        					>{data.books[item].name}</Link>
+        				</p>
+        				<p className="author">{data.books[item].author}</p>
+        			</td>
+        		</tr>
+        	)}
+        )
 
+
+        return (
 	        <div className="container-fluid content-main">
 	            <div className="row">
 	                <div className="col-xl-12">
