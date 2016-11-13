@@ -107,7 +107,9 @@
 	    genre: 'Фантастика',
 	    year: '2013',
 	    pages: '288',
-	    media: 'https://cdn.eksmo.ru/v2/ASE000000000715318/COVER/cover3d1__w340.jpg'
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000715318/COVER/cover3d1__w340.jpg',
+	    descr: 'Действие повести разворачивается в будущем на другой планете в государстве Арканар, где существует гуманоидная цивилизация, представители которой физически неотличимы от людей. Цивилизация находится на уровне развития, соответствующем земному позднему Средневековью. На планете негласно присутствуют сотрудники земного Института экспериментальной истории, ведущие наблюдение за развитием цивилизации.',
+	    citate: 'Хоть король, хоть черт, хоть сам дон Рэба…'
 	}, {
 	    id: 2,
 	    name: 'Отцы и дети',
@@ -115,8 +117,9 @@
 	    genre: 'Проза',
 	    year: '2010',
 	    pages: '327',
-	    media: 'https://cdn.eksmo.ru/v2/430000000000137585/COVER/cover3d1__w340.jpg'
-	
+	    media: 'https://cdn.eksmo.ru/v2/430000000000137585/COVER/cover3d1__w340.jpg',
+	    descr: 'Роман стал знаковым для своего времени, а образ главного героя Евгения Базарова был воспринят молодёжью как пример для подражания. Такие идеалы, как бескомпромиссность, отсутствие преклонения перед авторитетами и старыми истинами, приоритет полезного над прекрасным, были восприняты людьми того времени и нашли отражение в мировоззрении Базарова.',
+	    citate: 'Удивительное дело, как человек еще верит в слова. Скажут ему, например, дурака и не прибьют, он опечалится; назовут его умницей и денег ему не дадут – он почувствует удовольствие.'
 	}, {
 	    id: 3,
 	    name: 'Война и мир',
@@ -124,7 +127,9 @@
 	    genre: 'Проза',
 	    year: '2011',
 	    pages: '876',
-	    media: 'https://cdn.eksmo.ru/v2/ASE000000000710292/COVER/cover3d1__w340.jpg'
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000710292/COVER/cover3d1__w340.jpg',
+	    descr: 'Замысел эпопеи формировался задолго до начала работы над тем текстом, который известен под названием «Война и мир». В наброске предисловия к «Войне и миру» Толстой писал, что в 1856 г. начал писать повесть, «герой которой должен был быть декабрист, возвращающийся с семейством в Россию. Невольно от настоящего я перешёл к 1825 году… Но и в 1825 году герой мой был уже возмужалым, семейным человеком. Чтобы понять его, мне нужно было перенестись к его молодости, и молодость его совпала с … эпохой 1812 года…',
+	    citate: 'Вы не можете не понять наконец, что, кроме вашего удовольствия, есть счастье, спокойствие других людей, что вы губите целую жизнь из того, что вам хочется веселиться.'
 	}, {
 	    id: 4,
 	    name: 'Марсианские хроники',
@@ -132,7 +137,9 @@
 	    genre: 'Фантастика',
 	    year: '2013',
 	    pages: '76',
-	    media: 'https://cdn.eksmo.ru/v2/430000000000179055/COVER/cover3d1__w340.jpg'
+	    media: 'https://cdn.eksmo.ru/v2/430000000000179055/COVER/cover3d1__w340.jpg',
+	    descr: 'Фактически содержание книги представляет собой нечто среднее между собранием коротких историй и эпизодических новелл, включая ранее опубликованные в литературных журналах во второй половине 40-х годов рассказы. В «Марсианских хрониках» отражены основные проблемы, волнующие американское общество в начале 1950-х: угроза ядерной войны, тоска по более простой жизни, реакции против расизма и цензуры. Жанр научной фантастики нравился Брэдбери именно возможностью показать существующее положение дел в мире, используя для этого декорации вымышленного будущего, и таким образом оградить людей от повторения и усугубления ошибок прошлого.',
+	    citate: 'Мы просто дети в коротких штанишках, шумные и непоседливые дети, которые носятся со своими ракетными и атомными игрушками.'
 	}, {
 	    id: 5,
 	    name: 'Евгений Онегин',
@@ -140,7 +147,9 @@
 	    genre: 'Стихи',
 	    year: '2014',
 	    pages: '176',
-	    media: 'https://cdn.eksmo.ru/v2/ASE000000000718282/COVER/cover3d1__w340.jpg'
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000718282/COVER/cover3d1__w340.jpg',
+	    descr: 'Пушкин работал над этим романом свыше семи лет, с 1823 по 1831 год[1]. Роман был, по словам поэта, «плодом ума холодных наблюдений и сердца горестных замет». Работу над ним Пушкин называл подвигом — из всего своего творческого наследия только «Бориса Годунова» он характеризовал этим же словом. В произведении на широком фоне картин русской жизни показана драматическая судьба людей дворянской интеллигенции.',
+	    citate: 'Мечты, мечты! где ваша сладость?'
 	}];
 	
 	(0, _reactDom.render)(_react2.default.createElement(_topbarComponent2.default, null), document.getElementById('topbar'));
@@ -154,7 +163,8 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: '/', component: _homeComponent2.default, data: data }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/books/:id', component: _bookDetailComponent2.default, data: data }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/cars', component: _carComponent2.default, data: data }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '/cars/:id', component: _carDetailComponent2.default, data: data })
+	        _react2.default.createElement(_reactRouter.Route, { path: '/cars/:id', component: _carDetailComponent2.default, data: data }),
+	        _react2.default.createElement(_reactRouter.Route, { path: '/add-book', component: _addBookComponent2.default, data: data })
 	    )
 	), document.getElementById('root'));
 
@@ -27931,15 +27941,6 @@
 																					_react2.default.createElement('i', { className: 'fa fa-plus-circle fa-2', 'aria-hidden': 'true' })
 																	),
 																	_react2.default.createElement(
-																					'li',
-																					null,
-																					_react2.default.createElement(
-																									_reactRouter.Link,
-																									{ to: '/add-book', activeClassName: 'active' },
-																									'Add Book11'
-																					)
-																	),
-																	_react2.default.createElement(
 																					'nav',
 																					{ className: 'navbar navbar-light bg-faded' },
 																					_react2.default.createElement(
@@ -28054,7 +28055,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 96%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 15px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  padding-top: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: block;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 10px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 96%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 15px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  padding-top: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: block;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 10px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
 	
 	// exports
 
@@ -28427,7 +28428,7 @@
 																									{ className: 'sidebar-menu' },
 																									_react2.default.createElement(
 																													'li',
-																													{ className: 'active sidebar-item' },
+																													{ className: 'sidebar-item' },
 																													_react2.default.createElement(
 																																	_reactRouter.Link,
 																																	{ to: '/', className: 'sidebar-link', activeClassName: 'active' },
@@ -28450,6 +28451,20 @@
 																																					'span',
 																																					null,
 																																					'\u0410\u0432\u0442\u043E\u0440\u044B'
+																																	)
+																													)
+																									),
+																									_react2.default.createElement(
+																													'li',
+																													{ className: 'sidebar-item' },
+																													_react2.default.createElement(
+																																	_reactRouter.Link,
+																																	{ to: '/add-book', className: 'sidebar-link', activeClassName: 'active' },
+																																	_react2.default.createElement('i', { className: 'fa fa-plus-circle fa-2', 'aria-hidden': 'true' }),
+																																	_react2.default.createElement(
+																																					'span',
+																																					null,
+																																					'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C'
 																																	)
 																													)
 																									)
@@ -28525,7 +28540,7 @@
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-	    value: true
+	  value: true
 	});
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -28547,35 +28562,213 @@
 	__webpack_require__(/*! ./../scss/main.scss */ 236);
 	
 	var AddBook = function (_Component) {
-	    _inherits(AddBook, _Component);
+	  _inherits(AddBook, _Component);
 	
-	    function AddBook() {
-	        _classCallCheck(this, AddBook);
+	  function AddBook() {
+	    _classCallCheck(this, AddBook);
 	
-	        return _possibleConstructorReturn(this, (AddBook.__proto__ || Object.getPrototypeOf(AddBook)).apply(this, arguments));
-	    }
+	    return _possibleConstructorReturn(this, (AddBook.__proto__ || Object.getPrototypeOf(AddBook)).apply(this, arguments));
+	  }
 	
-	    _createClass(AddBook, [{
-	        key: 'render',
-	        value: function render() {
-	            return _react2.default.createElement(
-	                'div',
+	  _createClass(AddBook, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'container-fluid content-main' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-xl-12' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'card card-block card-add-book' },
+	              _react2.default.createElement(
+	                'h4',
+	                { className: 'card-title' },
+	                '\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u043F\u043E\u043B\u044F'
+	              ),
+	              _react2.default.createElement(
+	                'form',
 	                null,
 	                _react2.default.createElement(
-	                    _reactRouter.Link,
-	                    { to: '/add-book', className: 'sidebar-link', activeClassName: 'active' },
-	                    _react2.default.createElement('i', { className: 'fa fa-users fa-2', 'aria-hidden': 'true' }),
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-title' },
+	                    '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-title', placeholder: '', reqiured: true })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-author' },
+	                    '\u0410\u0432\u0442\u043E\u0440'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-author', placeholder: '', reqiured: true })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-genre' },
+	                    '\u0416\u0430\u043D\u0440'
+	                  ),
+	                  _react2.default.createElement(
+	                    'select',
+	                    { className: 'form-control', id: 'book-genre' },
 	                    _react2.default.createElement(
-	                        'span',
-	                        null,
-	                        'Add Book'
+	                      'option',
+	                      null,
+	                      '\u041F\u0440\u043E\u0437\u0430'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u0421\u0442\u0438\u0445\u0438'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u041D\u043E\u0432\u0435\u043B\u043B\u0430'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u041C\u0435\u043C\u0443\u0430\u0430\u0440\u044B'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u0424\u0435\u043B\u044C\u0435\u0442\u043E\u043D'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '\u041F\u044C\u0435\u0441\u0430'
 	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-year' },
+	                    '\u0413\u043E\u0434 \u0432\u044B\u043F\u0443\u0441\u043A\u0430'
+	                  ),
+	                  _react2.default.createElement(
+	                    'select',
+	                    { className: 'form-control', id: 'book-year' },
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2010'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2011'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2012'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2013'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2014'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2015'
+	                    ),
+	                    _react2.default.createElement(
+	                      'option',
+	                      null,
+	                      '2016'
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-pages' },
+	                    '\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u0440\u0430\u043D\u0438\u0446'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'number', className: 'form-control', id: 'book-pages', placeholder: '' })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-descr' },
+	                    '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-descr', placeholder: '' })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-citates' },
+	                    '\u0426\u0438\u0442\u0430\u0442\u044B'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-citates', placeholder: '' })
+	                ),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'form-group' },
+	                  _react2.default.createElement(
+	                    'label',
+	                    { 'for': 'book-cover' },
+	                    '\u041E\u0431\u043B\u043E\u0436\u043A\u0430 \u043A\u043D\u0438\u0433\u0438'
+	                  ),
+	                  _react2.default.createElement('input', { type: 'file', className: 'form-control-file', id: 'book-cover', 'aria-describedby': 'fileHelp' }),
+	                  _react2.default.createElement(
+	                    'small',
+	                    { id: 'fileHelp', className: 'form-text text-muted' },
+	                    '\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0430\u0445: jpg, png.'
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'button',
+	                  { type: 'submit', className: 'btn btn-success' },
+	                  _react2.default.createElement('i', { className: 'fa fa-check-circle fa-2', 'aria-hidden': 'true' }),
+	                  '\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C'
 	                )
-	            );
-	        }
-	    }]);
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
 	
-	    return AddBook;
+	  return AddBook;
 	}(_react.Component);
 	
 	exports.default = AddBook;
@@ -28660,7 +28853,7 @@
 																									null,
 																									_react2.default.createElement(
 																													'p',
-																													null,
+																													{ className: 'item-book' },
 																													_react2.default.createElement(
 																																	_reactRouter.Link,
 																																	{
@@ -28727,7 +28920,7 @@
 																																					{ role: 'tabpanel', className: 'tab-pane fade in active', id: 'not-read' },
 																																					_react2.default.createElement(
 																																									'table',
-																																									{ className: 'table table-striped table-my-books' },
+																																									{ className: 'table table-striped table-my-books table-hover' },
 																																									_react2.default.createElement(
 																																													'thead',
 																																													null,
@@ -28758,7 +28951,7 @@
 																																					{ role: 'tabpanel', className: 'tab-pane fade', id: 'read' },
 																																					_react2.default.createElement(
 																																									'table',
-																																									{ className: 'table table-striped table-my-books' },
+																																									{ className: 'table table-striped table-my-books table-hover' },
 																																									_react2.default.createElement(
 																																													'thead',
 																																													null,
@@ -28942,7 +29135,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n\n.content .content-main {\n  margin-top: 10px\n\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n  }\n\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n      }\n\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff\n}\n\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n\n.content .content-main {\n  margin-top: 10px\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n  }\n\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n      }\n\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff\n}\n\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}", ""]);
 	
 	// exports
 
@@ -29003,325 +29196,183 @@
 	
 	            return _react2.default.createElement(
 	                'div',
-	                null,
+	                { className: 'container-fluid content-main' },
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: 'card card-block' },
-	                    _react2.default.createElement(
-	                        'h4',
-	                        { className: 'card-title' },
-	                        book[0].name
-	                    ),
+	                    { className: 'row' },
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'container-book-descr' },
+	                        { className: 'col-xl-12' },
 	                        _react2.default.createElement(
 	                            'div',
-	                            { className: 'book-profile' },
+	                            { className: 'card card-block' },
 	                            _react2.default.createElement(
 	                                'div',
-	                                { className: 'container-img' },
-	                                _react2.default.createElement('img', { src: book[0].media, alt: book[0].name }),
+	                                { className: 'card-top' },
+	                                _react2.default.createElement(
+	                                    'h4',
+	                                    { className: 'card-title' },
+	                                    book[0].name
+	                                ),
 	                                _react2.default.createElement(
 	                                    'button',
-	                                    { className: 'btn btn-default', onClick: this.handleRedirect.bind(this) },
-	                                    'Go to Cars'
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                'table',
-	                                { className: 'table table-sm table-book-profile' },
-	                                _react2.default.createElement(
-	                                    'tbody',
-	                                    null,
-	                                    _react2.default.createElement(
-	                                        'tr',
-	                                        null,
-	                                        _react2.default.createElement(
-	                                            'th',
-	                                            { scope: 'row' },
-	                                            '\u0416\u0430\u043D\u0440'
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'td',
-	                                            null,
-	                                            book[0].genre
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'tr',
-	                                        null,
-	                                        _react2.default.createElement(
-	                                            'th',
-	                                            { scope: 'row' },
-	                                            '\u0413\u043E\u0434 \u0432\u044B\u043F\u0443\u0441\u043A\u0430'
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'td',
-	                                            null,
-	                                            book[0].year
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'tr',
-	                                        null,
-	                                        _react2.default.createElement(
-	                                            'th',
-	                                            { scope: 'row' },
-	                                            '\u0421\u0442\u0440\u0430\u043D\u0438\u0446'
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'td',
-	                                            null,
-	                                            book[0].pages
-	                                        )
-	                                    )
-	                                )
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'div',
-	                            { className: 'book-content' },
-	                            _react2.default.createElement(
-	                                'ul',
-	                                { className: 'nav nav-tabs content-tabs', role: 'tablist' },
-	                                _react2.default.createElement(
-	                                    'li',
-	                                    { className: 'nav-item' },
-	                                    _react2.default.createElement(
-	                                        'button',
-	                                        { type: 'button', className: 'btn btn-secondary active', href: '#descr', role: 'tab', 'data-toggle': 'tab' },
-	                                        '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435'
-	                                    )
-	                                ),
-	                                _react2.default.createElement(
-	                                    'li',
-	                                    { className: 'nav-item' },
-	                                    _react2.default.createElement(
-	                                        'button',
-	                                        { type: 'button', className: 'btn btn-secondary', href: '#citatio', role: 'tab', 'data-toggle': 'tab' },
-	                                        '\u0426\u0438\u0442\u0430\u0442\u044B'
-	                                    )
+	                                    { className: 'btn btn-default btn-back', onClick: this.handleRedirect.bind(this) },
+	                                    _react2.default.createElement('i', { className: 'fa fa-arrow-left fa-arrow-circle-left fa-2', 'aria-hidden': 'true' }),
+	                                    '\u041D\u0430\u0437\u0430\u0434'
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                'div',
-	                                { className: 'tab-content' },
+	                                { className: 'container-book-descr' },
 	                                _react2.default.createElement(
 	                                    'div',
-	                                    { role: 'tabpanel', className: 'tab-pane fade in active', id: 'descr' },
+	                                    { className: 'book-profile' },
 	                                    _react2.default.createElement(
-	                                        'p',
-	                                        null,
-	                                        '\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043F\u043E\u0432\u0435\u0441\u0442\u0438 \u0440\u0430\u0437\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043C \u043D\u0430 \u0434\u0440\u0443\u0433\u043E\u0439 \u043F\u043B\u0430\u043D\u0435\u0442\u0435 \u0432 \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435 \u0410\u0440\u043A\u0430\u043D\u0430\u0440, \u0433\u0434\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0433\u0443\u043C\u0430\u043D\u043E\u0438\u0434\u043D\u0430\u044F \u0446\u0438\u0432\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F, \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u0438 \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0438 \u043D\u0435\u043E\u0442\u043B\u0438\u0447\u0438\u043C\u044B \u043E\u0442 \u043B\u044E\u0434\u0435\u0439. \u0426\u0438\u0432\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u043D\u0430 \u0443\u0440\u043E\u0432\u043D\u0435 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044F, \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E\u0449\u0435\u043C \u0437\u0435\u043C\u043D\u043E\u043C\u0443 \u043F\u043E\u0437\u0434\u043D\u0435\u043C\u0443 \u0421\u0440\u0435\u0434\u043D\u0435\u0432\u0435\u043A\u043E\u0432\u044C\u044E. \u041D\u0430 \u043F\u043B\u0430\u043D\u0435\u0442\u0435 \u043D\u0435\u0433\u043B\u0430\u0441\u043D\u043E \u043F\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044E\u0442 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u043A\u0438 \u0437\u0435\u043C\u043D\u043E\u0433\u043E \u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0439 \u0438\u0441\u0442\u043E\u0440\u0438\u0438, \u0432\u0435\u0434\u0443\u0449\u0438\u0435 \u043D\u0430\u0431\u043B\u044E\u0434\u0435\u043D\u0438\u0435 \u0437\u0430 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435\u043C \u0446\u0438\u0432\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u0438.'
+	                                        'div',
+	                                        { className: 'container-img' },
+	                                        _react2.default.createElement('img', { src: book[0].media, alt: book[0].name })
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        'p',
-	                                        null,
-	                                        '\u0417\u0435\u043C\u043D\u044B\u0435 \u0430\u0433\u0435\u043D\u0442\u044B \u0432\u043D\u0435\u0434\u0440\u0435\u043D\u044B \u0432 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435 \u0441\u043B\u043E\u0438 \u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u0410\u0440\u043A\u0430\u043D\u0430\u0440\u0430 \u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432. \u041E\u043D\u0438 \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E \u044D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u044B \u0438 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u044B, \u0438\u0445 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u043C\u043D\u043E\u0433\u043E\u043A\u0440\u0430\u0442\u043D\u043E \u043F\u0440\u0435\u0432\u044B\u0448\u0430\u044E\u0442 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0430\u0431\u043E\u0440\u0438\u0433\u0435\u043D\u043E\u0432, \u0432 \u043F\u0440\u0438\u043D\u0446\u0438\u043F\u0435 \u043B\u044E\u0431\u043E\u0439 \u0438\u0437 \u043D\u0438\u0445 \u043C\u043E\u0433 \u0431\u044B \u0432 \u043E\u0434\u0438\u043D\u043E\u0447\u043A\u0443 \u043F\u043E\u0434\u043D\u0438\u043C\u0430\u0442\u044C \u0442\u044B\u0441\u044F\u0447\u0438 \u043B\u044E\u0434\u0435\u0439 \u043D\u0430 \u0431\u0443\u043D\u0442, \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u043E\u0432\u044B\u0432\u0430\u0442\u044C \u0432\u043E\u0439\u043D\u044B, \u0441\u043C\u0435\u0449\u0430\u0442\u044C \u043F\u0440\u0430\u0432\u044F\u0449\u0438\u0435 \u0434\u0438\u043D\u0430\u0441\u0442\u0438\u0438 \u0438 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\u0441\u044F \u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u0435\u043C \u0441\u0430\u043C, \u043D\u043E \u043F\u043E\u0434\u043E\u0431\u043D\u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u043F\u0440\u0435\u0449\u0435\u043D\u044B \u2014 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0435 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u044F\u0435\u0442\u0441\u044F \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0435\u0439 \xAB\u0431\u0435\u0441\u043A\u0440\u043E\u0432\u043D\u043E\u0433\u043E \u0432\u043E\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F\xBB, \u0441\u043E\u0433\u043B\u0430\u0441\u043D\u043E \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u0438\u0441\u0442\u043E\u0440\u0438\u044F \u043E\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u0410\u0440\u043A\u0430\u043D\u0430\u0440\u0430 \u0434\u043E\u043B\u0436\u043D\u0430 \u0438\u043C\u0435\u0442\u044C \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E\u0435 \u0442\u0435\u0447\u0435\u043D\u0438\u0435, \u0430 \u0432\u0441\u0451, \u0447\u0442\u043E \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u043E \u0434\u043B\u044F \u0437\u0435\u043C\u043B\u044F\u043D, \u2014 \xAB\u0441\u0433\u043B\u0430\u0436\u0438\u0432\u0430\u043D\u0438\u0435 \u0443\u0433\u043B\u043E\u0432\xBB, \u0437\u0430\u0449\u0438\u0442\u0430 \u0430\u0440\u043A\u0430\u043D\u0430\u0440\u0446\u0435\u0432 \u043E\u0442 \u044F\u0432\u043D\u044B\u0445 \u0438\u0441\u0442\u043E\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u043E\u0448\u0438\u0431\u043E\u043A, \u043F\u0435\u0440\u0435\u0436\u0438\u0442\u044B\u0445 \u0432 \u0441\u0432\u043E\u0451 \u0432\u0440\u0435\u043C\u044F \u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E\u043C \u0417\u0435\u043C\u043B\u0438. \u0417\u0435\u043C\u043D\u044B\u0435 \u0430\u0433\u0435\u043D\u0442\u044B \u0431\u0435\u0437\u0443\u043F\u0440\u0435\u0447\u043D\u043E \u0432\u043B\u0430\u0434\u0435\u044E\u0442 \u043E\u0440\u0443\u0436\u0438\u0435\u043C, \u043D\u043E \u0434\u043B\u044F \u043D\u0438\u0445, \u043A\u0430\u043A \u0438 \u0434\u043B\u044F \u0432\u0441\u0435\u0445 \u0437\u0435\u043C\u043B\u044F\u043D XXII \u0432\u0435\u043A\u0430, \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043E \u0440\u0430\u0437\u0443\u043C\u043D\u043E\u0433\u043E \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430, \u0434\u0430\u0436\u0435 \u043F\u0440\u0438 \u0441\u0430\u043C\u043E\u043E\u0431\u043E\u0440\u043E\u043D\u0435, \u043D\u0435\u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u043E \u043F\u043E \u043C\u043E\u0440\u0430\u043B\u044C\u043D\u044B\u043C \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\u043C.'
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'p',
-	                                        null,
-	                                        '\u0413\u043B\u0430\u0432\u043D\u044B\u0439 \u0433\u0435\u0440\u043E\u0439 \u2014 \u0437\u0435\u043C\u043B\u044F\u043D\u0438\u043D \u0410\u043D\u0442\u043E\u043D, \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0439 \u0432 \u0410\u0440\u043A\u0430\u043D\u0430\u0440\u0441\u043A\u043E\u043C \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u0435 \u043F\u043E\u0434 \u0432\u0438\u0434\u043E\u043C \u0434\u0432\u043E\u0440\u044F\u043D\u0438\u043D\u0430 \u0420\u0443\u043C\u0430\u0442\u044B \u042D\u0441\u0442\u043E\u0440\u0441\u043A\u043E\u0433\u043E. \u041E\u043D \u0432\u0441\u0435\u043C\u0438 \u0441\u0438\u043B\u0430\u043C\u0438 \u0441\u0442\u0430\u0440\u0430\u0435\u0442\u0441\u044F \u043F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u044C \u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E \u043D\u0430 \u0432\u0435\u0440\u043D\u044B\u0439 \u043F\u0443\u0442\u044C, \u043D\u043E \u0438\u0434\u0435\u044F \u0420\u0435\u0432\u043E\u043B\u044E\u0446\u0438\u0438 \u043E\u0442\u043F\u0430\u0434\u0430\u0435\u0442 \u0441\u0440\u0430\u0437\u0443 \u2014 \u043B\u044E\u0434\u0438 \u043D\u0435 \u043C\u043E\u0433\u0443\u0442 \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0435\u0431\u0435 \u0441\u0432\u043E\u0431\u043E\u0434\u0443, \u043E\u043D\u0438 \u0447\u0435\u0442\u043A\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442 \u0441\u0435\u0431\u044F \u043D\u0430 \u043C\u0435\u0441\u0442\u0435 \u0441\u0432\u043E\u0438\u0445 \u0433\u043E\u0441\u043F\u043E\u0434. \u041F\u043E\u044D\u0442\u043E\u043C\u0443, \u043F\u0440\u043E\u0432\u0435\u0434\u0438 \u043E\u043D \u0435\u0435, \u0432\u0441\u0435 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F \u043D\u0430\u0447\u0438\u043D\u0430\u0442\u044C \u0432 \u044D\u0442\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u0435 \u0441\u043D\u0430\u0447\u0430\u043B\u0430, \u0430 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u043E\u043C \u0441\u0442\u0430\u043D\u0435\u0442 \u0442\u043E\u0436\u0435 \u0441\u0430\u043C\u043E\u0435 \u2014 \u043F\u0440\u0430\u0432\u044F\u0449\u0438\u0435 \u044D\u043B\u0438\u0442\u044B \u0438 \u043D\u0438\u0449\u0435\u0442\u0430. \u0410\u0440\u043A\u0430\u043D\u0430\u0440\u0441\u043A\u043E\u0435 \u043A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E \u043F\u0435\u0440\u0435\u0436\u0438\u0432\u0430\u0435\u0442 \u043F\u0435\u0440\u0438\u043E\u0434 \u043A\u043E\u043D\u0442\u0440\u043A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E\u0439 \u0440\u0435\u0430\u043A\u0446\u0438\u0438 \u2014 \u0438\u0434\u0443\u0442 \u0433\u043E\u043D\u0435\u043D\u0438\u044F \u043D\u0430 \xAB\u0433\u0440\u0430\u043C\u043E\u0442\u0435\u0435\u0432\xBB \u043F\u043E\u0434 \u0434\u0435\u0432\u0438\u0437\u043E\u043C \xAB\u041D\u0430\u043C \u043D\u0435 \u043D\u0443\u0436\u043D\u044B \u0443\u043C\u043D\u044B\u0435, \u043D\u0430\u043C \u043D\u0443\u0436\u043D\u044B \u0432\u0435\u0440\u043D\u044B\u0435\xBB. \u0420\u0443\u043C\u0430\u0442\u0430 \u0432\u0441\u0435\u043C\u0438 \u0441\u0438\u043B\u0430\u043C\u0438 \u0441\u0442\u0430\u0440\u0430\u0435\u0442\u0441\u044F \u0441\u043F\u0430\u0441\u0442\u0438 \u0434\u043B\u044F \u0431\u0443\u0434\u0443\u0449\u0438\u0445 \u043F\u043E\u043A\u043E\u043B\u0435\u043D\u0438\u0439 \u0433\u0435\u043D\u0438\u0430\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0451\u043D\u044B\u0445, \u043F\u043E\u044D\u0442\u043E\u0432, \u0434\u0435\u044F\u0442\u0435\u043B\u0435\u0439 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430.'
+	                                        'table',
+	                                        { className: 'table table-sm table-book-profile' },
+	                                        _react2.default.createElement(
+	                                            'tbody',
+	                                            null,
+	                                            _react2.default.createElement(
+	                                                'tr',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                    'th',
+	                                                    { scope: 'row' },
+	                                                    '\u0416\u0430\u043D\u0440'
+	                                                ),
+	                                                _react2.default.createElement(
+	                                                    'td',
+	                                                    null,
+	                                                    book[0].genre
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                'tr',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                    'th',
+	                                                    { scope: 'row' },
+	                                                    '\u0413\u043E\u0434 \u0432\u044B\u043F\u0443\u0441\u043A\u0430'
+	                                                ),
+	                                                _react2.default.createElement(
+	                                                    'td',
+	                                                    null,
+	                                                    book[0].year
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                'tr',
+	                                                null,
+	                                                _react2.default.createElement(
+	                                                    'th',
+	                                                    { scope: 'row' },
+	                                                    '\u0421\u0442\u0440\u0430\u043D\u0438\u0446'
+	                                                ),
+	                                                _react2.default.createElement(
+	                                                    'td',
+	                                                    null,
+	                                                    book[0].pages
+	                                                )
+	                                            )
+	                                        )
 	                                    )
 	                                ),
 	                                _react2.default.createElement(
 	                                    'div',
-	                                    { role: 'tabpanel', className: 'tab-pane fade', id: 'citatio' },
+	                                    { className: 'book-content' },
+	                                    _react2.default.createElement(
+	                                        'ul',
+	                                        { className: 'nav nav-tabs content-tabs', role: 'tablist' },
+	                                        _react2.default.createElement(
+	                                            'li',
+	                                            { className: 'nav-item' },
+	                                            _react2.default.createElement(
+	                                                'button',
+	                                                { type: 'button', className: 'btn btn-secondary active', href: '#descr', role: 'tab', 'data-toggle': 'tab' },
+	                                                '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435'
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            'li',
+	                                            { className: 'nav-item' },
+	                                            _react2.default.createElement(
+	                                                'button',
+	                                                { type: 'button', className: 'btn btn-secondary', href: '#citatio', role: 'tab', 'data-toggle': 'tab' },
+	                                                '\u0426\u0438\u0442\u0430\u0442\u044B'
+	                                            )
+	                                        )
+	                                    ),
 	                                    _react2.default.createElement(
 	                                        'div',
-	                                        { className: 'card card-block card-textarea' },
+	                                        { className: 'tab-content' },
 	                                        _react2.default.createElement(
-	                                            'form',
-	                                            null,
+	                                            'div',
+	                                            { role: 'tabpanel', className: 'tab-pane fade in active', id: 'descr' },
 	                                            _react2.default.createElement(
-	                                                'fieldset',
+	                                                'p',
 	                                                null,
+	                                                book[0].descr
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            'div',
+	                                            { role: 'tabpanel', className: 'tab-pane fade', id: 'citatio' },
+	                                            _react2.default.createElement(
+	                                                'div',
+	                                                { className: 'card card-block card-textarea' },
+	                                                _react2.default.createElement(
+	                                                    'form',
+	                                                    null,
+	                                                    _react2.default.createElement(
+	                                                        'fieldset',
+	                                                        null,
+	                                                        _react2.default.createElement(
+	                                                            'div',
+	                                                            { className: 'form-group' },
+	                                                            _react2.default.createElement('textarea', { className: 'form-control', id: 'exampleTextarea', rows: '3', placeholder: '\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0442\u0435\u043A\u0441\u0442 \u0446\u0438\u0442\u0430\u0442\u044B...' })
+	                                                        ),
+	                                                        _react2.default.createElement(
+	                                                            'button',
+	                                                            { type: 'submit', className: 'btn btn-success' },
+	                                                            _react2.default.createElement('i', { className: 'fa fa-plus-circle fa-2', 'aria-hidden': 'true' }),
+	                                                            ' \u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C'
+	                                                        )
+	                                                    )
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                'div',
+	                                                { className: 'card citatio-item' },
 	                                                _react2.default.createElement(
 	                                                    'div',
-	                                                    { className: 'form-group' },
-	                                                    _react2.default.createElement('textarea', { className: 'form-control', id: 'exampleTextarea', rows: '3', placeholder: '\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0442\u0435\u043A\u0441\u0442 \u0446\u0438\u0442\u0430\u0442\u044B...' })
+	                                                    { className: 'card-header' },
+	                                                    _react2.default.createElement(
+	                                                        'p',
+	                                                        null,
+	                                                        _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
+	                                                        '12'
+	                                                    )
 	                                                ),
 	                                                _react2.default.createElement(
-	                                                    'button',
-	                                                    { type: 'submit', className: 'btn btn-success' },
-	                                                    _react2.default.createElement('i', { className: 'fa fa-plus-circle fa-2', 'aria-hidden': 'true' }),
-	                                                    ' \u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C'
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '12'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u0425\u043E\u0442\u044C \u043A\u043E\u0440\u043E\u043B\u044C, \u0445\u043E\u0442\u044C \u0447\u0435\u0440\u0442, \u0445\u043E\u0442\u044C \u0441\u0430\u043C \u0434\u043E\u043D \u0420\u044D\u0431\u0430\u2026',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '43'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u042F \u0436\u0435 \u0432\u0441\u0435-\u0442\u0430\u043A\u0438 \u0447\u0435\u043B\u043E\u0432\u0435\u043A, \u0438 \u0432\u0441\u0435 \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435 \u043C\u043D\u0435 \u043D\u0435 \u0447\u0443\u0436\u0434\u043E\u2026',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '56'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u2014 \u0412\u043E\u0442 \u043A\u0430\u043A? \u041C\u044B \u0446\u0438\u0442\u0438\u0440\u0443\u0435\u043C \u043C\u044F\u0442\u0435\u0436\u043D\u0438\u043A\u0430 \u0426\u0443\u0440\u044D\u043D\u0430?',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '98'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u2014 \u041A\u0441\u0442\u0430\u0442\u0438, \u0431\u043B\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0435 \u0434\u043E\u043D\u044B, \u0447\u0435\u0439 \u044D\u0442\u043E \u0432\u0435\u0440\u0442\u043E\u043B\u0451\u0442 \u043F\u043E\u0437\u0430\u0434\u0438 \u0438\u0437\u0431\u044B?',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '111'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u2014 \u042F \u0432\u0441\u043F\u043E\u0442\u0435\u043B, \u0438 \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0432\u043E\u0437\u043C\u0435\u0441\u0442\u0438\u0442\u044C \u043F\u043E\u0442\u0435\u0440\u044E \u0436\u0438\u0434\u043A\u043E\u0441\u0442\u0438.',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
-	                                                )
-	                                            )
-	                                        )
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        'div',
-	                                        { className: 'card citatio-item' },
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-header' },
-	                                            _react2.default.createElement(
-	                                                'p',
-	                                                null,
-	                                                _react2.default.createElement('i', { className: 'fa fa-file-o fa-1', 'aria-hidden': 'true' }),
-	                                                '176'
-	                                            )
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'div',
-	                                            { className: 'card-block' },
-	                                            _react2.default.createElement(
-	                                                'blockquote',
-	                                                { className: 'card-blockquote' },
-	                                                _react2.default.createElement(
-	                                                    'p',
-	                                                    null,
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
-	                                                    '\u2014 \u0411\u043B\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0439 \u0434\u043E\u043D \u043F\u043E\u0440\u0430\u0436\u0451\u043D \u0432 \u043F\u044F\u0442\u043A\u0443!!',
-	                                                    _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
+	                                                    'div',
+	                                                    { className: 'card-block' },
+	                                                    _react2.default.createElement(
+	                                                        'blockquote',
+	                                                        { className: 'card-blockquote' },
+	                                                        _react2.default.createElement(
+	                                                            'p',
+	                                                            null,
+	                                                            _react2.default.createElement('i', { className: 'fa fa-quote-left fa-1', 'aria-hidden': 'true' }),
+	                                                            book[0].citate,
+	                                                            _react2.default.createElement('i', { className: 'fa fa-quote-right fa-1', 'aria-hidden': 'true' })
+	                                                        )
+	                                                    )
 	                                                )
 	                                            )
 	                                        )

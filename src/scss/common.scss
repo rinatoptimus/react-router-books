@@ -1,3 +1,13 @@
+@import './variables.scss';
+
 i.fa {
   font-size: calc(20px + 1.1vw);
+  &:
+}
+.sidebar-item {
+	a.active {
+		text-decoration: none;
+		color: $white !important;
+		text-decoration: none !important;
+	}
 }

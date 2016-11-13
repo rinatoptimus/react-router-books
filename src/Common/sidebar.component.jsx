@@ -11,7 +11,7 @@ class Sidebar extends Component {
 
                 <div className="sidebar">
 			        <ul className="sidebar-menu">
-			            <li className="active sidebar-item">
+			            <li className="sidebar-item">
 			                <Link to="/" className="sidebar-link" activeClassName="active">
 			                    <i className="fa fa-book fa-2" aria-hidden="true"></i>
 			                    <span>Мои книги</span>
@@ -21,6 +21,12 @@ class Sidebar extends Component {
 			                <Link to="/cars" className="sidebar-link" activeClassName="active">
 			                    <i className="fa fa-users fa-2" aria-hidden="true"></i>
 			                    <span>Авторы</span>
+			                </Link>
+			            </li>
+			            <li className="sidebar-item">
+			                <Link to="/add-book" className="sidebar-link" activeClassName="active">
+			                    <i className="fa fa-plus-circle fa-2" aria-hidden="true"></i>
+			                    <span>Добавить</span>
 			                </Link>
 			            </li>
 			        </ul>

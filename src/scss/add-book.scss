@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.card-add-book {
+	form {
+		button {
+			.fa-check-circle {
+				margin-right: 5px;
+				font-size: 15px;
+			}
+		}
+	}
+}

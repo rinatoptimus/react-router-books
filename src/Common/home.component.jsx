@@ -30,7 +30,7 @@ class Home extends Component {
         		<tr>
         			<th>{data.books[item].id}</th>
         			<td>
-        				<p>
+        				<p className="item-book">
         					<Link
         					to={"books/"+data.books[item].id}
 			                    
@@ -61,7 +61,7 @@ class Home extends Component {
 	                        </ul>
 	                        <div className="tab-content">
 	                            <div role="tabpanel" className="tab-pane fade in active" id="not-read">
-	                                <table className="table table-striped table-my-books">
+	                                <table className="table table-striped table-my-books table-hover">
 	                                    <thead>
 	                                        <tr>
 	                                            <th className="th-number">#</th>
@@ -74,7 +74,7 @@ class Home extends Component {
 	                                </table>
 	                            </div>
 	                            <div role="tabpanel" className="tab-pane fade" id="read">
-	                                <table className="table table-striped table-my-books">
+	                                <table className="table table-striped table-my-books table-hover">
 	                                    <thead>
 	                                    <tr>
 	                                        <th className="th-number">#</th>
