@@ -105,48 +105,42 @@
 	    name: 'Трудно быть богом',
 	    author: 'Стругацкие',
 	    genre: 'Фантастика',
-	    model: '2013',
-	    make: '288',
-	    media: 'http://media.ed.edmunds-media.com/honda/accord-crosstour/2010/oem/2010_honda_accord-crosstour_4dr-hatchback_ex-l_fq_oem_4_500.jpg',
-	    price: '$16,811'
-	
+	    year: '2013',
+	    pages: '288',
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000715318/COVER/cover3d1__w340.jpg'
 	}, {
 	    id: 2,
 	    name: 'Отцы и дети',
 	    author: 'Тургенев',
-	    year: 'Проза',
-	    model: 'AMG',
-	    make: 'Mercedes Benz',
-	    media: 'http://media.ed.edmunds-media.com/mercedes-benz/amg-gt/2016/oem/2016_mercedes-benz_amg-gt_coupe_s_fq_oem_1_717.jpg',
-	    price: '$138,157'
+	    genre: 'Проза',
+	    year: '2010',
+	    pages: '327',
+	    media: 'https://cdn.eksmo.ru/v2/430000000000137585/COVER/cover3d1__w340.jpg'
 	
 	}, {
 	    id: 3,
 	    name: 'Война и мир',
 	    author: 'Толстой',
-	    year: 'Проза',
-	    model: 'X6',
-	    make: 'BMW',
-	    media: 'http://media.ed.edmunds-media.com/bmw/x6/2016/oem/2016_bmw_x6_4dr-suv_xdrive50i_fq_oem_1_717.jpg',
-	    price: '$68,999'
+	    genre: 'Проза',
+	    year: '2011',
+	    pages: '876',
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000710292/COVER/cover3d1__w340.jpg'
 	}, {
 	    id: 4,
 	    name: 'Марсианские хроники',
 	    author: 'Брэдбери',
-	    year: 'Фантастика',
-	    model: 'Edge',
-	    make: 'Ford',
-	    media: 'http://media.ed.edmunds-media.com/ford/edge/2016/oem/2016_ford_edge_4dr-suv_sport_fq_oem_6_717.jpg',
-	    price: '$36,275'
+	    genre: 'Фантастика',
+	    year: '2013',
+	    pages: '76',
+	    media: 'https://cdn.eksmo.ru/v2/430000000000179055/COVER/cover3d1__w340.jpg'
 	}, {
 	    id: 5,
 	    name: 'Евгений Онегин',
 	    author: 'Пушкин',
-	    year: 'Стихи',
-	    model: 'Viper',
-	    make: 'Dodge',
-	    media: 'http://media.ed.edmunds-media.com/dodge/viper/2017/oem/2017_dodge_viper_coupe_acr_fq_oem_3_717.jpg',
-	    price: '$123,890'
+	    genre: 'Стихи',
+	    year: '2014',
+	    pages: '176',
+	    media: 'https://cdn.eksmo.ru/v2/ASE000000000718282/COVER/cover3d1__w340.jpg'
 	}];
 	
 	(0, _reactDom.render)(_react2.default.createElement(_topbarComponent2.default, null), document.getElementById('topbar'));
@@ -28640,18 +28634,17 @@
 					_createClass(Home, [{
 									key: 'render',
 									value: function render() {
-	
 													// Get data from route props
 													// original const books = this.props.route.data;
 	
 													/*const data = require('./books.json'); 
 	            console.log(data.book1.genre);*/
-													var json = [_books2.default.books];console.log(json);
-													for (var i = 0; i < json.length; i++) {
-																	//console.log(json[i].book1);
-																	console.log(json[i].books);
-																	//console.log(json.books[i]);
-													}
+													/*var json = [data.books];console.log(json);
+	            for (var i = 0 ; i < json.length ; i++) {
+	            	//console.log(json[i].book1);
+	            	console.log(json[i].books);
+	            	//console.log(json.books[i]);
+	            }*/
 	
 													var carNode = Object.keys(_books2.default.books).map(function (item) {
 																	return _react2.default.createElement(
@@ -28865,50 +28858,45 @@
 				"name": "Трудно быть богом",
 				"author": "Стругацкие",
 				"genre": "Фантастика",
-				"model": "2013",
-				"make": "288 ",
-				"media": "http://media.ed.edmunds-media.com/honda/accord-crosstour/2010/oem/2010_honda_accord-crosstour_4dr-hatchback_ex-l_fq_oem_4_500.jpg",
-				"price": "$16,811"
+				"year": "2013",
+				"pages": "288",
+				"media": "https://cdn.eksmo.ru/v2/ASE000000000715318/COVER/cover3d1__w340.jpg"
 			},
 			"book2": {
 				"id": 2,
 				"name": "Отцы и дети",
 				"author": "Тургенев",
-				"year": "Проза",
-				"model": "AMG",
-				"make": "Mercedes Benz",
-				"media": "http://media.ed.edmunds-media.com/mercedes-benz/amg-gt/2016/oem/2016_mercedes-benz_amg-gt_coupe_s_fq_oem_1_717.jpg",
-				"price": "$138,157"
+				"genre": "Проза",
+				"year": "2010",
+				"pages": "327",
+				"media": "https://cdn.eksmo.ru/v2/430000000000137585/COVER/cover3d1__w340.jpg"
 			},
 			"book3": {
 				"id": 3,
 				"name": "Война и мир",
 				"author": "Толстой",
-				"year": "Проза",
-				"model": "X6",
-				"make": "BMW",
-				"media": "http://media.ed.edmunds-media.com/bmw/x6/2016/oem/2016_bmw_x6_4dr-suv_xdrive50i_fq_oem_1_717.jpg",
-				"price": "$68,999"
+				"genre": "Проза",
+				"year": "2011",
+				"pages": "876",
+				"media": "https://cdn.eksmo.ru/v2/ASE000000000710292/COVER/cover3d1__w340.jpg"
 			},
 			"book4": {
 				"id": 4,
 				"name": "Марсианские хроники",
 				"author": "Брэдбери",
-				"year": "Фантастика",
-				"model": "Edge",
-				"make": "Ford",
-				"media": "http://media.ed.edmunds-media.com/ford/edge/2016/oem/2016_ford_edge_4dr-suv_sport_fq_oem_6_717.jpg",
-				"price": "$36,275"
+				"genre": "Фантастика",
+				"year": "2013",
+				"pages": "76",
+				"media": "https://cdn.eksmo.ru/v2/430000000000179055/COVER/cover3d1__w340.jpg"
 			},
 			"book5": {
 				"id": 5,
 				"name": "Евгений Онегин",
 				"author": "Пушкин",
-				"year": "Стихи",
-				"model": "Viper",
-				"make": "Dodge",
-				"media": "http://media.ed.edmunds-media.com/dodge/viper/2017/oem/2017_dodge_viper_coupe_acr_fq_oem_3_717.jpg",
-				"price": "$123,890"
+				"genre": "Стихи",
+				"year": "2014",
+				"pages": "176",
+				"media": "https://cdn.eksmo.ru/v2/ASE000000000718282/COVER/cover3d1__w340.jpg"
 			}
 		}
 	};
@@ -29052,7 +29040,7 @@
 	                                        _react2.default.createElement(
 	                                            'th',
 	                                            { scope: 'row' },
-	                                            '\u0416\u0430\u043D\u04401111'
+	                                            '\u0416\u0430\u043D\u0440'
 	                                        ),
 	                                        _react2.default.createElement(
 	                                            'td',
@@ -29071,7 +29059,7 @@
 	                                        _react2.default.createElement(
 	                                            'td',
 	                                            null,
-	                                            book[0].make
+	                                            book[0].year
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
@@ -29085,7 +29073,7 @@
 	                                        _react2.default.createElement(
 	                                            'td',
 	                                            null,
-	                                            book[0].year
+	                                            book[0].pages
 	                                        )
 	                                    )
 	                                )

@@ -27,16 +27,16 @@ class BookDetail extends Component {
                             <table className="table table-sm table-book-profile">
                                 <tbody>
                                     <tr>
-                                        <th scope="row">Жанр1111</th>
+                                        <th scope="row">Жанр</th>
                                         <td>{book[0].genre}</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Год выпуска</th>
-                                        <td>{book[0].make}</td>
+                                        <td>{book[0].year}</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Страниц</th>
-                                        <td>{book[0].year}</td>
+                                        <td>{book[0].pages}</td>
                                     </tr>
                                 </tbody>
                             </table>
