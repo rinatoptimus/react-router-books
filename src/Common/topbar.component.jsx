@@ -10,7 +10,6 @@ class Topbar extends Component {
 			    <button type="button" className="btn btn-success">
 			        <i className="fa fa-plus-circle fa-2" aria-hidden="true"></i>
 			    </button>
-			    <li><Link to="/add-book" activeClassName="active">Add Book11</Link></li>
 
 			    <nav className="navbar navbar-light bg-faded">
 			        <a className="navbar-brand" href="#"><i className="fa fa-bookmark fa-2" aria-hidden="true"></i>Books</a>

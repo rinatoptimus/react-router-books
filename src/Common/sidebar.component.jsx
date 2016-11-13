@@ -29,6 +29,12 @@ class Sidebar extends Component {
 			                    <span>Добавить</span>
 			                </Link>
 			            </li>
+			            <li className="sidebar-item">
+			                <Link to="/authorization" className="sidebar-link" activeClassName="active">
+			                    <i className="fa fa-sign-in fa-2" aria-hidden="true"></i>
+			                    <span>Войти</span>
+			                </Link>
+			            </li>			          
 			        </ul>
 			    </div>
 			    <div className="content">

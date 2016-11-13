@@ -1,5 +1,11 @@
 @import './variables.scss';
 
+.app {
+	margin-top: 0;
+		@media (min-width: 48em) {
+			margin-top: 15px;
+		}
+}
 i.fa {
   font-size: calc(20px + 1.1vw);
   &:

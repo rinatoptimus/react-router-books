@@ -8,12 +8,13 @@
   min-width: 70px;
   z-index: 10;
   position: absolute;
-  width: 96%;
+  width: 98.5%;
   background-color: $bg-violet;
   display: flex;
   justify-content: space-between;
   overflow: auto;
-  margin-top: 15px;
+  margin-top: 0px;
+  margin-left: -10px;
   border-radius: 5px;
   /*@include tablet {
     position: relative;
@@ -23,6 +24,7 @@
   @media (min-width: 48em) {
     position: relative;
     /* test width: auto;*/
+    margin-left: 0px;
     width: 4vw;
     flex-direction: column;
   }
@@ -30,12 +32,17 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    //display: flex;
+
+    display: table;
+    width: 100%;
+    table-layout: fixed;
     /*@include tablet {
       display: block;
     }*/
     @media (min-width: 48em) {
-      display: block;
+      display: flex;
+      flex-direction: column;
     }
     &:first-child {
       margin-top: 0;
@@ -54,7 +61,9 @@
       }
     }
     li {
+          display: table-cell;
       padding-top: 10px;
+      cursor: pointer; 
     }
     .sidebar-item {
       &.active,
@@ -74,7 +83,12 @@
         flex-direction: column;
         text-align: center;
         span {
-          font-size: 10px;
+          font-size: 13px;
+          padding-top: 7px;
+          @media (min-width: 48em) {
+            padding-top: 0px;
+            font-size: 10px;
+          }
         }
       }
     }

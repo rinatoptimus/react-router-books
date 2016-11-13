@@ -69,36 +69,38 @@
 	
 	var _addBookComponent2 = _interopRequireDefault(_addBookComponent);
 	
-	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 244);
+	var _authorizationComponent = __webpack_require__(/*! ./common/authorization.component.jsx */ 244);
+	
+	var _authorizationComponent2 = _interopRequireDefault(_authorizationComponent);
+	
+	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 245);
 	
 	var _homeComponent2 = _interopRequireDefault(_homeComponent);
 	
-	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 248);
+	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 249);
 	
 	var _bookDetailComponent2 = _interopRequireDefault(_bookDetailComponent);
 	
-	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 249);
+	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 250);
 	
 	var _aboutComponent2 = _interopRequireDefault(_aboutComponent);
 	
-	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 250);
+	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 251);
 	
 	var _carComponent2 = _interopRequireDefault(_carComponent);
 	
-	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 251);
+	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 252);
 	
 	var _carDetailComponent2 = _interopRequireDefault(_carDetailComponent);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(/*! ./scss/App.scss */ 252);
+	// Import routing components
+	__webpack_require__(/*! ./scss/App.scss */ 253);
 	
 	//import data from './common/books.json';
 	
 	//import TopBarRouter from './common/top-bar-router-delete.component.jsx'
-	
-	// Import routing components
-	
 	
 	var data = [{
 	    id: 1,
@@ -164,7 +166,8 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: '/books/:id', component: _bookDetailComponent2.default, data: data }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/cars', component: _carComponent2.default, data: data }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/cars/:id', component: _carDetailComponent2.default, data: data }),
-	        _react2.default.createElement(_reactRouter.Route, { path: '/add-book', component: _addBookComponent2.default, data: data })
+	        _react2.default.createElement(_reactRouter.Route, { path: '/add-book', component: _addBookComponent2.default, data: data }),
+	        _react2.default.createElement(_reactRouter.Route, { path: '/authorization', component: _authorizationComponent2.default, data: data })
 	    )
 	), document.getElementById('root'));
 
@@ -28055,7 +28058,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 96%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 15px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: flex;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  padding-top: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: block;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 10px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px;\n  //font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: flex;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    font-size: 10px;\n    padding-top: 0px;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 0px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-authorization form .input-group span i {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
 	
 	// exports
 
@@ -28467,6 +28470,20 @@
 																																					'\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C'
 																																	)
 																													)
+																									),
+																									_react2.default.createElement(
+																													'li',
+																													{ className: 'sidebar-item' },
+																													_react2.default.createElement(
+																																	_reactRouter.Link,
+																																	{ to: '/authorization', className: 'sidebar-link', activeClassName: 'active' },
+																																	_react2.default.createElement('i', { className: 'fa fa-sign-in fa-2', 'aria-hidden': 'true' }),
+																																	_react2.default.createElement(
+																																					'span',
+																																					null,
+																																					'\u0412\u043E\u0439\u0442\u0438'
+																																	)
+																													)
 																									)
 																					)
 																	),
@@ -28525,7 +28542,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.container-sidebar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 96%;\n  background-color: #5F5E8A;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  overflow: auto;\n  margin-top: 15px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  padding-top: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    width: 4vw;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n  }\n  }\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: block;\n  }\n    }\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.container-sidebar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n  }\n  }\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n  }\n    }\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    padding-top: 0px;\n    font-size: 10px;\n  }\n          }", ""]);
 	
 	// exports
 
@@ -28599,7 +28616,7 @@
 	                  _react2.default.createElement(
 	                    'label',
 	                    { 'for': 'book-title' },
-	                    '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
+	                    '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435'
 	                  ),
 	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-title', placeholder: '', reqiured: true })
 	                ),
@@ -28727,7 +28744,7 @@
 	                    { 'for': 'book-descr' },
 	                    '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
 	                  ),
-	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-descr', placeholder: '' })
+	                  _react2.default.createElement('textarea', { className: 'form-control', id: 'book-descr', rows: '3' })
 	                ),
 	                _react2.default.createElement(
 	                  'div',
@@ -28775,6 +28792,125 @@
 
 /***/ },
 /* 244 */
+/*!************************************************!*\
+  !*** ./src/common/authorization.component.jsx ***!
+  \************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+					value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	__webpack_require__(/*! ./../scss/main.scss */ 236);
+	
+	var Authorization = function (_Component) {
+					_inherits(Authorization, _Component);
+	
+					function Authorization() {
+									_classCallCheck(this, Authorization);
+	
+									return _possibleConstructorReturn(this, (Authorization.__proto__ || Object.getPrototypeOf(Authorization)).apply(this, arguments));
+					}
+	
+					_createClass(Authorization, [{
+									key: 'render',
+									value: function render() {
+													return _react2.default.createElement(
+																	'div',
+																	{ className: 'container-fluid content-main' },
+																	_react2.default.createElement(
+																					'div',
+																					{ className: 'row' },
+																					_react2.default.createElement(
+																									'div',
+																									{ className: 'col-xl-12' },
+																									_react2.default.createElement(
+																													'div',
+																													{ className: 'card card-block card-authorization' },
+																													_react2.default.createElement(
+																																	'h4',
+																																	{ className: 'card-title' },
+																																	'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043B\u043E\u0433\u0438\u043D \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'
+																													),
+																													_react2.default.createElement(
+																																	'form',
+																																	null,
+																																	_react2.default.createElement(
+																																					'div',
+																																					{ className: 'row' },
+																																					_react2.default.createElement(
+																																									'div',
+																																									{ className: 'col-lg-3' },
+																																									_react2.default.createElement(
+																																													'div',
+																																													{ className: 'input-group' },
+																																													_react2.default.createElement(
+																																																	'span',
+																																																	{ className: 'input-group-addon', id: 'basic-addon1' },
+																																																	_react2.default.createElement('i', { className: 'fa fa-envelope fa-1', 'aria-hidden': 'true' })
+																																													),
+																																													_react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'example@mail.com', 'aria-describedby': 'basic-addon1' })
+																																									)
+																																					)
+																																	),
+																																	_react2.default.createElement('br', null),
+																																	_react2.default.createElement(
+																																					'div',
+																																					{ className: 'row' },
+																																					_react2.default.createElement(
+																																									'div',
+																																									{ className: 'col-lg-3' },
+																																									_react2.default.createElement(
+																																													'div',
+																																													{ className: 'input-group' },
+																																													_react2.default.createElement(
+																																																	'span',
+																																																	{ className: 'input-group-addon', id: 'basic-addon1' },
+																																																	_react2.default.createElement('i', { className: 'fa fa-key fa-2', 'aria-hidden': 'true' })
+																																													),
+																																													_react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: '\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: \u0440\u044B\u0431\u0430-\u043C\u0435\u0447', 'aria-describedby': 'basic-addon1' })
+																																									)
+																																					)
+																																	),
+																																	_react2.default.createElement('br', null),
+																																	_react2.default.createElement(
+																																					'button',
+																																					{ type: 'submit', className: 'btn btn-success' },
+																																					'\u0412\u043E\u0439\u0442\u0438'
+																																	)
+																													)
+																									)
+																					)
+																	)
+													);
+									}
+					}]);
+	
+					return Authorization;
+	}(_react.Component);
+	
+	exports.default = Authorization;
+
+/***/ },
+/* 245 */
 /*!***************************************!*\
   !*** ./src/common/home.component.jsx ***!
   \***************************************/
@@ -28794,7 +28930,7 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
-	var _books = __webpack_require__(/*! ./books.json */ 245);
+	var _books = __webpack_require__(/*! ./books.json */ 246);
 	
 	var _books2 = _interopRequireDefault(_books);
 	
@@ -28809,7 +28945,7 @@
 	//import DATA from './books.json';
 	
 	
-	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 246);
+	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 247);
 	
 	/*console.log(books.books.book1.author);
 	const data = [books.books];
@@ -29036,7 +29172,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 245 */
+/* 246 */
 /*!*******************************!*\
   !*** ./src/common/books.json ***!
   \*******************************/
@@ -29095,7 +29231,7 @@
 	};
 
 /***/ },
-/* 246 */
+/* 247 */
 /*!******************************************!*\
   !*** ./src/scss/ContentMyBooksList.scss ***!
   \******************************************/
@@ -29104,7 +29240,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 247);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 248);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -29124,7 +29260,7 @@
 	}
 
 /***/ },
-/* 247 */
+/* 248 */
 /*!****************************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/ContentMyBooksList.scss ***!
   \****************************************************************************/
@@ -29135,13 +29271,13 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n\n.content .content-main {\n  margin-top: 10px\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n  }\n\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: 0;\n  }\n      }\n\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff\n}\n\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n\n.content .content-main {\n  margin-top: 0px\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n  }\n\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n      }\n\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff\n}\n\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 248 */
+/* 249 */
 /*!**********************************************!*\
   !*** ./src/common/book-detail.component.jsx ***!
   \**********************************************/
@@ -29392,7 +29528,7 @@
 	exports.default = BookDetail;
 
 /***/ },
-/* 249 */
+/* 250 */
 /*!****************************************!*\
   !*** ./src/common/about.component.jsx ***!
   \****************************************/
@@ -29444,7 +29580,7 @@
 	exports.default = About;
 
 /***/ },
-/* 250 */
+/* 251 */
 /*!***********************************!*\
   !*** ./src/car/car.component.jsx ***!
   \***********************************/
@@ -29520,7 +29656,7 @@
 	exports.default = Car;
 
 /***/ },
-/* 251 */
+/* 252 */
 /*!******************************************!*\
   !*** ./src/car/car-detail.component.jsx ***!
   \******************************************/
@@ -29665,7 +29801,7 @@
 	exports.default = CarDetail;
 
 /***/ },
-/* 252 */
+/* 253 */
 /*!***************************!*\
   !*** ./src/scss/App.scss ***!
   \***************************/
@@ -29674,7 +29810,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 253);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 254);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -29694,7 +29830,7 @@
 	}
 
 /***/ },
-/* 253 */
+/* 254 */
 /*!*************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/App.scss ***!
   \*************************************************************/

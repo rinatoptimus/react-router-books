@@ -50,7 +50,7 @@ class AddBook extends Component {
                               </div>
                               <div className="form-group">
                                 <label for="book-descr">Описание книги</label>                               
-                                <input type="text" className="form-control" id="book-descr" placeholder="" />
+                                <textarea className="form-control" id="book-descr" rows="3"></textarea>
                               </div>
                               <div className="form-group">
                                 <label for="book-citates">Цитаты</label>                               

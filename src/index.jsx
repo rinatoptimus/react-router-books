@@ -6,6 +6,7 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import Topbar from './common/topbar.component.jsx'
 import Sidebar from './common/sidebar.component.jsx'
 import AddBook from './common/add-book.component.jsx'
+import Authorization from './common/authorization.component.jsx'
 
 import Home from './common/home.component.jsx'
 import BookDetail from './common/book-detail.component.jsx'
@@ -94,6 +95,7 @@ render(
             <Route path="/cars/:id" component={CarDetail} data={data}/>
 
             <Route path="/add-book" component={AddBook} data={data}/>
+            <Route path="/authorization" component={Authorization} data={data}/>
         </Route>
     </Router>,
     document.getElementById('root')
