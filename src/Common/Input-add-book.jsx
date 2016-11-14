@@ -38,7 +38,6 @@ const MyInput = React.createClass({
           />
           <span className='validation-error'>{errorMessage}</span>
         </div>
-
     
     );
   }

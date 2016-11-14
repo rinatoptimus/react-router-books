@@ -15,9 +15,7 @@ import BookDetail from './common/book-detail.component.jsx'
 
 //import TopBarRouter from './common/top-bar-router-delete.component.jsx'
 
-import About from './common/about.component.jsx'
-import Car from './car/car.component.jsx'
-import CarDetail from './car/car-detail.component.jsx'
+import Authors from './common/authors.component.jsx'
 
 require ('./scss/App.scss'); 
 
@@ -89,11 +87,7 @@ render(
         <Route component={Sidebar}>
             <Route path="/" component={Home} data={data}/>
             <Route path="/books/:id" component={BookDetail} data={data}/>
-
-            <Route path="/cars" component={Car} data={data}/>
-            {/* Parameter route*/}
-            <Route path="/cars/:id" component={CarDetail} data={data}/>
-
+            <Route path="/authors" component={Authors} data={data}/>
             <Route path="/add-book" component={AddBook} data={data}/>
             <Route path="/authorization" component={Authorization} data={data}/>
         </Route>

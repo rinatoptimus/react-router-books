@@ -24,7 +24,6 @@ class Home extends Component {
 			//console.log(json.books[i]);
 		}*/
         
-
         const carNode = Object.keys(data.books).map(item => 
         	{return (
         		<tr>
@@ -42,7 +41,6 @@ class Home extends Component {
         		</tr>
         	)}
         )
-
 
         return (
 	        <div className="container-fluid content-main">
@@ -105,7 +103,6 @@ class Home extends Component {
 	    			</div>
 	    		</div>
 	    	</div>
-
         );
     }
 }

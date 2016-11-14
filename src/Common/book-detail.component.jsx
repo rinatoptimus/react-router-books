@@ -82,8 +82,7 @@ class BookDetail extends Component {
                                                         <i className="fa fa-quote-right fa-1" aria-hidden="true"></i></p>
                                                     </blockquote>
                                                 </div>
-                                            </div>
-                                            
+                                            </div>                                           
                                         </div>
                                     </div>
                                 </div>

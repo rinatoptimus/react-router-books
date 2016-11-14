@@ -7,8 +7,6 @@ class Sidebar extends Component {
     render(){
         return(
             <div className="container-sidebar">
-
-
                 <div className="sidebar">
 			        <ul className="sidebar-menu">
 			            <li className="sidebar-item">
@@ -18,7 +16,7 @@ class Sidebar extends Component {
 			                </Link>
 			            </li>
 			            <li className="sidebar-item">
-			                <Link to="/cars" className="sidebar-link" activeClassName="active">
+			                <Link to="/authors" className="sidebar-link" activeClassName="active">
 			                    <i className="fa fa-users fa-2" aria-hidden="true"></i>
 			                    <span>Авторы</span>
 			                </Link>
@@ -40,9 +38,6 @@ class Sidebar extends Component {
 			    <div className="content">
                     {this.props.children}
                 </div>
-
-
-
             </div>
         );
     }
