@@ -73,30 +73,30 @@
 	
 	var _authorizationComponent2 = _interopRequireDefault(_authorizationComponent);
 	
-	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 245);
+	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 253);
 	
 	var _homeComponent2 = _interopRequireDefault(_homeComponent);
 	
-	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 249);
+	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 257);
 	
 	var _bookDetailComponent2 = _interopRequireDefault(_bookDetailComponent);
 	
-	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 250);
+	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 258);
 	
 	var _aboutComponent2 = _interopRequireDefault(_aboutComponent);
 	
-	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 251);
+	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 259);
 	
 	var _carComponent2 = _interopRequireDefault(_carComponent);
 	
-	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 252);
+	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 260);
 	
 	var _carDetailComponent2 = _interopRequireDefault(_carDetailComponent);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// Import routing components
-	__webpack_require__(/*! ./scss/App.scss */ 253);
+	__webpack_require__(/*! ./scss/App.scss */ 261);
 	
 	//import data from './common/books.json';
 	
@@ -28058,7 +28058,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px;\n  //font-size: 10px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: flex;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    font-size: 10px;\n    padding-top: 0px;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 0px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-authorization form .input-group span i {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: flex;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    padding-top: 0px;\n    font-size: 10px;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 0px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-authorization form span i {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
 	
 	// exports
 
@@ -28800,10 +28800,8 @@
 	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
-					value: true
+			value: true
 	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
 	var _react = __webpack_require__(/*! react */ 1);
 	
@@ -28811,106 +28809,1112 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 245);
+	
+	var _formsyReact2 = _interopRequireDefault(_formsyReact);
+	
+	var _input = __webpack_require__(/*! ./input.jsx */ 252);
+	
+	var _input2 = _interopRequireDefault(_input);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	__webpack_require__(/*! ./../scss/main.scss */ 236);
 	
-	var Authorization = function (_Component) {
-					_inherits(Authorization, _Component);
-	
-					function Authorization() {
-									_classCallCheck(this, Authorization);
-	
-									return _possibleConstructorReturn(this, (Authorization.__proto__ || Object.getPrototypeOf(Authorization)).apply(this, arguments));
-					}
-	
-					_createClass(Authorization, [{
-									key: 'render',
-									value: function render() {
-													return _react2.default.createElement(
+	var Authorization = _react2.default.createClass({
+			displayName: 'Authorization',
+			getInitialState: function getInitialState() {
+					return { canSubmit: false };
+			},
+			submit: function submit(data) {
+					alert(JSON.stringify(data, null, 4));
+			},
+			enableButton: function enableButton() {
+					this.setState({ canSubmit: true });
+			},
+			disableButton: function disableButton() {
+					this.setState({ canSubmit: false });
+			},
+			render: function render() {
+					return _react2.default.createElement(
+							'div',
+							{ className: 'container-fluid content-main' },
+							_react2.default.createElement(
+									'div',
+									{ className: 'row' },
+									_react2.default.createElement(
+											'div',
+											{ className: 'col-xl-12' },
+											_react2.default.createElement(
+													'div',
+													{ className: 'card card-block card-authorization' },
+													_react2.default.createElement(
+															'h4',
+															{ className: 'card-title' },
+															'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043B\u043E\u0433\u0438\u043D \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'
+													),
+													_react2.default.createElement(
+															_formsyReact2.default.Form,
+															{ onSubmit: this.submit, onValid: this.enableButton, onInvalid: this.disableButton, className: 'login' },
+															_react2.default.createElement(
 																	'div',
-																	{ className: 'container-fluid content-main' },
+																	{ className: 'row' },
 																	_react2.default.createElement(
+																			'div',
+																			{ className: 'col-lg-4' },
+																			_react2.default.createElement(
 																					'div',
-																					{ className: 'row' },
-																					_react2.default.createElement(
-																									'div',
-																									{ className: 'col-xl-12' },
-																									_react2.default.createElement(
-																													'div',
-																													{ className: 'card card-block card-authorization' },
-																													_react2.default.createElement(
-																																	'h4',
-																																	{ className: 'card-title' },
-																																	'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043B\u043E\u0433\u0438\u043D \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'
-																													),
-																													_react2.default.createElement(
-																																	'form',
-																																	null,
-																																	_react2.default.createElement(
-																																					'div',
-																																					{ className: 'row' },
-																																					_react2.default.createElement(
-																																									'div',
-																																									{ className: 'col-lg-3' },
-																																									_react2.default.createElement(
-																																													'div',
-																																													{ className: 'input-group' },
-																																													_react2.default.createElement(
-																																																	'span',
-																																																	{ className: 'input-group-addon', id: 'basic-addon1' },
-																																																	_react2.default.createElement('i', { className: 'fa fa-envelope fa-1', 'aria-hidden': 'true' })
-																																													),
-																																													_react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'example@mail.com', 'aria-describedby': 'basic-addon1' })
-																																									)
-																																					)
-																																	),
-																																	_react2.default.createElement('br', null),
-																																	_react2.default.createElement(
-																																					'div',
-																																					{ className: 'row' },
-																																					_react2.default.createElement(
-																																									'div',
-																																									{ className: 'col-lg-3' },
-																																									_react2.default.createElement(
-																																													'div',
-																																													{ className: 'input-group' },
-																																													_react2.default.createElement(
-																																																	'span',
-																																																	{ className: 'input-group-addon', id: 'basic-addon1' },
-																																																	_react2.default.createElement('i', { className: 'fa fa-key fa-2', 'aria-hidden': 'true' })
-																																													),
-																																													_react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: '\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: \u0440\u044B\u0431\u0430-\u043C\u0435\u0447', 'aria-describedby': 'basic-addon1' })
-																																									)
-																																					)
-																																	),
-																																	_react2.default.createElement('br', null),
-																																	_react2.default.createElement(
-																																					'button',
-																																					{ type: 'submit', className: 'btn btn-success' },
-																																					'\u0412\u043E\u0439\u0442\u0438'
-																																	)
-																													)
-																									)
-																					)
+																					{ className: 'input-group' },
+																					_react2.default.createElement(_input2.default, { value: '', name: 'email', title: 'Email', validations: 'isEmail', validationError: '\u041F\u043E\u0445\u043E\u0436\u0435, \u044D\u0442\u043E \u043D\u0435 \u0432\u0430\u0448 email. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437.', required: true })
+																			)
 																	)
-													);
-									}
-					}]);
-	
-					return Authorization;
-	}(_react.Component);
+															),
+															_react2.default.createElement('br', null),
+															_react2.default.createElement(
+																	'div',
+																	{ className: 'row' },
+																	_react2.default.createElement(
+																			'div',
+																			{ className: 'col-lg-4' },
+																			_react2.default.createElement(
+																					'div',
+																					{ className: 'input-group' },
+																					_react2.default.createElement(_input2.default, { value: '', name: 'password', title: 'Password', type: 'password', required: true }),
+																					_react2.default.createElement('br', null),
+																					_react2.default.createElement(
+																							'button',
+																							{ className: 'btn btn-success', type: 'submit', disabled: !this.state.canSubmit },
+																							'\u0412\u043E\u0439\u0442\u0438'
+																					)
+																			)
+																	)
+															)
+													)
+											)
+									)
+							)
+					);
+			}
+	});
 	
 	exports.default = Authorization;
 
 /***/ },
 /* 245 */
+/*!************************************!*\
+  !*** ./~/formsy-react/lib/main.js ***!
+  \************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+	
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+	
+	var React = global.React || __webpack_require__(/*! react */ 1);
+	var Formsy = {};
+	var validationRules = __webpack_require__(/*! ./validationRules.js */ 246);
+	var formDataToObject = __webpack_require__(/*! form-data-to-object */ 247);
+	var utils = __webpack_require__(/*! ./utils.js */ 248);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
+	var HOC = __webpack_require__(/*! ./HOC.js */ 250);
+	var Decorator = __webpack_require__(/*! ./Decorator.js */ 251);
+	var options = {};
+	var emptyArray = [];
+	
+	Formsy.Mixin = Mixin;
+	Formsy.HOC = HOC;
+	Formsy.Decorator = Decorator;
+	
+	Formsy.defaults = function (passedOptions) {
+	  options = passedOptions;
+	};
+	
+	Formsy.addValidationRule = function (name, func) {
+	  validationRules[name] = func;
+	};
+	
+	Formsy.Form = React.createClass({
+	  displayName: 'Formsy',
+	  getInitialState: function getInitialState() {
+	    return {
+	      isValid: true,
+	      isSubmitting: false,
+	      canChange: false
+	    };
+	  },
+	  getDefaultProps: function getDefaultProps() {
+	    return {
+	      onSuccess: function onSuccess() {},
+	      onError: function onError() {},
+	      onSubmit: function onSubmit() {},
+	      onValidSubmit: function onValidSubmit() {},
+	      onInvalidSubmit: function onInvalidSubmit() {},
+	      onValid: function onValid() {},
+	      onInvalid: function onInvalid() {},
+	      onChange: function onChange() {},
+	      validationErrors: null,
+	      preventExternalInvalidation: false
+	    };
+	  },
+	
+	  childContextTypes: {
+	    formsy: React.PropTypes.object
+	  },
+	  getChildContext: function getChildContext() {
+	    var _this = this;
+	
+	    return {
+	      formsy: {
+	        attachToForm: this.attachToForm,
+	        detachFromForm: this.detachFromForm,
+	        validate: this.validate,
+	        isFormDisabled: this.isFormDisabled,
+	        isValidValue: function isValidValue(component, value) {
+	          return _this.runValidation(component, value).isValid;
+	        }
+	      }
+	    };
+	  },
+	
+	  // Add a map to store the inputs of the form, a model to store
+	  // the values of the form and register child inputs
+	  componentWillMount: function componentWillMount() {
+	    this.inputs = [];
+	  },
+	
+	  componentDidMount: function componentDidMount() {
+	    this.validateForm();
+	  },
+	
+	  componentWillUpdate: function componentWillUpdate() {
+	    // Keep a reference to input names before form updates,
+	    // to check if inputs has changed after render
+	    this.prevInputNames = this.inputs.map(function (component) {
+	      return component.props.name;
+	    });
+	  },
+	
+	  componentDidUpdate: function componentDidUpdate() {
+	
+	    if (this.props.validationErrors && _typeof(this.props.validationErrors) === 'object' && Object.keys(this.props.validationErrors).length > 0) {
+	      this.setInputValidationErrors(this.props.validationErrors);
+	    }
+	
+	    var newInputNames = this.inputs.map(function (component) {
+	      return component.props.name;
+	    });
+	    if (utils.arraysDiffer(this.prevInputNames, newInputNames)) {
+	      this.validateForm();
+	    }
+	  },
+	
+	  // Allow resetting to specified data
+	  reset: function reset(data) {
+	    this.setFormPristine(true);
+	    this.resetModel(data);
+	  },
+	
+	  // Update model, submit to url prop and send the model
+	  submit: function submit(event) {
+	
+	    event && event.preventDefault();
+	
+	    // Trigger form as not pristine.
+	    // If any inputs have not been touched yet this will make them dirty
+	    // so validation becomes visible (if based on isPristine)
+	    this.setFormPristine(false);
+	    var model = this.getModel();
+	    this.props.onSubmit(model, this.resetModel, this.updateInputsWithError);
+	    this.state.isValid ? this.props.onValidSubmit(model, this.resetModel, this.updateInputsWithError) : this.props.onInvalidSubmit(model, this.resetModel, this.updateInputsWithError);
+	  },
+	
+	  mapModel: function mapModel(model) {
+	
+	    if (this.props.mapping) {
+	      return this.props.mapping(model);
+	    } else {
+	      return formDataToObject.toObj(Object.keys(model).reduce(function (mappedModel, key) {
+	
+	        var keyArray = key.split('.');
+	        var base = mappedModel;
+	        while (keyArray.length) {
+	          var currentKey = keyArray.shift();
+	          base = base[currentKey] = keyArray.length ? base[currentKey] || {} : model[key];
+	        }
+	
+	        return mappedModel;
+	      }, {}));
+	    }
+	  },
+	
+	  getModel: function getModel() {
+	    var currentValues = this.getCurrentValues();
+	    return this.mapModel(currentValues);
+	  },
+	
+	  // Reset each key in the model to the original / initial / specified value
+	  resetModel: function resetModel(data) {
+	    this.inputs.forEach(function (component) {
+	      var name = component.props.name;
+	      if (data && data.hasOwnProperty(name)) {
+	        component.setValue(data[name]);
+	      } else {
+	        component.resetValue();
+	      }
+	    });
+	    this.validateForm();
+	  },
+	
+	  setInputValidationErrors: function setInputValidationErrors(errors) {
+	    this.inputs.forEach(function (component) {
+	      var name = component.props.name;
+	      var args = [{
+	        _isValid: !(name in errors),
+	        _validationError: typeof errors[name] === 'string' ? [errors[name]] : errors[name]
+	      }];
+	      component.setState.apply(component, args);
+	    });
+	  },
+	
+	  // Checks if the values have changed from their initial value
+	  isChanged: function isChanged() {
+	    return !utils.isSame(this.getPristineValues(), this.getCurrentValues());
+	  },
+	
+	  getPristineValues: function getPristineValues() {
+	    return this.inputs.reduce(function (data, component) {
+	      var name = component.props.name;
+	      data[name] = component.props.value;
+	      return data;
+	    }, {});
+	  },
+	
+	  // Go through errors from server and grab the components
+	  // stored in the inputs map. Change their state to invalid
+	  // and set the serverError message
+	  updateInputsWithError: function updateInputsWithError(errors) {
+	    var _this2 = this;
+	
+	    Object.keys(errors).forEach(function (name, index) {
+	      var component = utils.find(_this2.inputs, function (component) {
+	        return component.props.name === name;
+	      });
+	      if (!component) {
+	        throw new Error('You are trying to update an input that does not exist. ' + 'Verify errors object with input names. ' + JSON.stringify(errors));
+	      }
+	      var args = [{
+	        _isValid: _this2.props.preventExternalInvalidation || false,
+	        _externalError: typeof errors[name] === 'string' ? [errors[name]] : errors[name]
+	      }];
+	      component.setState.apply(component, args);
+	    });
+	  },
+	
+	  isFormDisabled: function isFormDisabled() {
+	    return this.props.disabled;
+	  },
+	
+	  getCurrentValues: function getCurrentValues() {
+	    return this.inputs.reduce(function (data, component) {
+	      var name = component.props.name;
+	      data[name] = component.state._value;
+	      return data;
+	    }, {});
+	  },
+	
+	  setFormPristine: function setFormPristine(isPristine) {
+	    this.setState({
+	      _formSubmitted: !isPristine
+	    });
+	
+	    // Iterate through each component and set it as pristine
+	    // or "dirty".
+	    this.inputs.forEach(function (component, index) {
+	      component.setState({
+	        _formSubmitted: !isPristine,
+	        _isPristine: isPristine
+	      });
+	    });
+	  },
+	
+	  // Use the binded values and the actual input value to
+	  // validate the input and set its state. Then check the
+	  // state of the form itself
+	  validate: function validate(component) {
+	
+	    // Trigger onChange
+	    if (this.state.canChange) {
+	      this.props.onChange(this.getCurrentValues(), this.isChanged());
+	    }
+	
+	    var validation = this.runValidation(component);
+	    // Run through the validations, split them up and call
+	    // the validator IF there is a value or it is required
+	    component.setState({
+	      _isValid: validation.isValid,
+	      _isRequired: validation.isRequired,
+	      _validationError: validation.error,
+	      _externalError: null
+	    }, this.validateForm);
+	  },
+	
+	  // Checks validation on current value or a passed value
+	  runValidation: function runValidation(component, value) {
+	
+	    var currentValues = this.getCurrentValues();
+	    var validationErrors = component.props.validationErrors;
+	    var validationError = component.props.validationError;
+	    value = arguments.length === 2 ? value : component.state._value;
+	
+	    var validationResults = this.runRules(value, currentValues, component._validations);
+	    var requiredResults = this.runRules(value, currentValues, component._requiredValidations);
+	
+	    // the component defines an explicit validate function
+	    if (typeof component.validate === "function") {
+	      validationResults.failed = component.validate() ? [] : ['failed'];
+	    }
+	
+	    var isRequired = Object.keys(component._requiredValidations).length ? !!requiredResults.success.length : false;
+	    var isValid = !validationResults.failed.length && !(this.props.validationErrors && this.props.validationErrors[component.props.name]);
+	
+	    return {
+	      isRequired: isRequired,
+	      isValid: isRequired ? false : isValid,
+	      error: function () {
+	
+	        if (isValid && !isRequired) {
+	          return emptyArray;
+	        }
+	
+	        if (validationResults.errors.length) {
+	          return validationResults.errors;
+	        }
+	
+	        if (this.props.validationErrors && this.props.validationErrors[component.props.name]) {
+	          return typeof this.props.validationErrors[component.props.name] === 'string' ? [this.props.validationErrors[component.props.name]] : this.props.validationErrors[component.props.name];
+	        }
+	
+	        if (isRequired) {
+	          var error = validationErrors[requiredResults.success[0]];
+	          return error ? [error] : null;
+	        }
+	
+	        if (validationResults.failed.length) {
+	          return validationResults.failed.map(function (failed) {
+	            return validationErrors[failed] ? validationErrors[failed] : validationError;
+	          }).filter(function (x, pos, arr) {
+	            // Remove duplicates
+	            return arr.indexOf(x) === pos;
+	          });
+	        }
+	      }.call(this)
+	    };
+	  },
+	
+	  runRules: function runRules(value, currentValues, validations) {
+	
+	    var results = {
+	      errors: [],
+	      failed: [],
+	      success: []
+	    };
+	    if (Object.keys(validations).length) {
+	      Object.keys(validations).forEach(function (validationMethod) {
+	
+	        if (validationRules[validationMethod] && typeof validations[validationMethod] === 'function') {
+	          throw new Error('Formsy does not allow you to override default validations: ' + validationMethod);
+	        }
+	
+	        if (!validationRules[validationMethod] && typeof validations[validationMethod] !== 'function') {
+	          throw new Error('Formsy does not have the validation rule: ' + validationMethod);
+	        }
+	
+	        if (typeof validations[validationMethod] === 'function') {
+	          var validation = validations[validationMethod](currentValues, value);
+	          if (typeof validation === 'string') {
+	            results.errors.push(validation);
+	            results.failed.push(validationMethod);
+	          } else if (!validation) {
+	            results.failed.push(validationMethod);
+	          }
+	          return;
+	        } else if (typeof validations[validationMethod] !== 'function') {
+	          var validation = validationRules[validationMethod](currentValues, value, validations[validationMethod]);
+	          if (typeof validation === 'string') {
+	            results.errors.push(validation);
+	            results.failed.push(validationMethod);
+	          } else if (!validation) {
+	            results.failed.push(validationMethod);
+	          } else {
+	            results.success.push(validationMethod);
+	          }
+	          return;
+	        }
+	
+	        return results.success.push(validationMethod);
+	      });
+	    }
+	
+	    return results;
+	  },
+	
+	  // Validate the form by going through all child input components
+	  // and check their state
+	  validateForm: function validateForm() {
+	    var _this3 = this;
+	
+	    // We need a callback as we are validating all inputs again. This will
+	    // run when the last component has set its state
+	    var onValidationComplete = function () {
+	      var allIsValid = this.inputs.every(function (component) {
+	        return component.state._isValid;
+	      });
+	
+	      this.setState({
+	        isValid: allIsValid
+	      });
+	
+	      if (allIsValid) {
+	        this.props.onValid();
+	      } else {
+	        this.props.onInvalid();
+	      }
+	
+	      // Tell the form that it can start to trigger change events
+	      this.setState({
+	        canChange: true
+	      });
+	    }.bind(this);
+	
+	    // Run validation again in case affected by other inputs. The
+	    // last component validated will run the onValidationComplete callback
+	    this.inputs.forEach(function (component, index) {
+	      var validation = _this3.runValidation(component);
+	      if (validation.isValid && component.state._externalError) {
+	        validation.isValid = false;
+	      }
+	      component.setState({
+	        _isValid: validation.isValid,
+	        _isRequired: validation.isRequired,
+	        _validationError: validation.error,
+	        _externalError: !validation.isValid && component.state._externalError ? component.state._externalError : null
+	      }, index === _this3.inputs.length - 1 ? onValidationComplete : null);
+	    });
+	
+	    // If there are no inputs, set state where form is ready to trigger
+	    // change event. New inputs might be added later
+	    if (!this.inputs.length && this.isMounted()) {
+	      this.setState({
+	        canChange: true
+	      });
+	    }
+	  },
+	
+	  // Method put on each input component to register
+	  // itself to the form
+	  attachToForm: function attachToForm(component) {
+	
+	    if (this.inputs.indexOf(component) === -1) {
+	      this.inputs.push(component);
+	    }
+	
+	    this.validate(component);
+	  },
+	
+	  // Method put on each input component to unregister
+	  // itself from the form
+	  detachFromForm: function detachFromForm(component) {
+	    var componentPos = this.inputs.indexOf(component);
+	
+	    if (componentPos !== -1) {
+	      this.inputs = this.inputs.slice(0, componentPos).concat(this.inputs.slice(componentPos + 1));
+	    }
+	
+	    this.validateForm();
+	  },
+	  render: function render() {
+	    var _props = this.props;
+	    var mapping = _props.mapping;
+	    var validationErrors = _props.validationErrors;
+	    var onSubmit = _props.onSubmit;
+	    var onValid = _props.onValid;
+	    var onValidSubmit = _props.onValidSubmit;
+	    var onInvalid = _props.onInvalid;
+	    var onInvalidSubmit = _props.onInvalidSubmit;
+	    var onChange = _props.onChange;
+	    var reset = _props.reset;
+	    var preventExternalInvalidation = _props.preventExternalInvalidation;
+	    var onSuccess = _props.onSuccess;
+	    var onError = _props.onError;
+	
+	    var nonFormsyProps = _objectWithoutProperties(_props, ['mapping', 'validationErrors', 'onSubmit', 'onValid', 'onValidSubmit', 'onInvalid', 'onInvalidSubmit', 'onChange', 'reset', 'preventExternalInvalidation', 'onSuccess', 'onError']);
+	
+	    return React.createElement(
+	      'form',
+	      _extends({}, nonFormsyProps, { onSubmit: this.submit }),
+	      this.props.children
+	    );
+	  }
+	});
+	
+	if (!global.exports && !global.module && (!global.define || !global.define.amd)) {
+	  global.Formsy = Formsy;
+	}
+	
+	module.exports = Formsy;
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 246 */
+/*!***********************************************!*\
+  !*** ./~/formsy-react/lib/validationRules.js ***!
+  \***********************************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	var _isExisty = function _isExisty(value) {
+	  return value !== null && value !== undefined;
+	};
+	
+	var isEmpty = function isEmpty(value) {
+	  return value === '';
+	};
+	
+	var validations = {
+	  isDefaultRequiredValue: function isDefaultRequiredValue(values, value) {
+	    return value === undefined || value === '';
+	  },
+	  isExisty: function isExisty(values, value) {
+	    return _isExisty(value);
+	  },
+	  matchRegexp: function matchRegexp(values, value, regexp) {
+	    return !_isExisty(value) || isEmpty(value) || regexp.test(value);
+	  },
+	  isUndefined: function isUndefined(values, value) {
+	    return value === undefined;
+	  },
+	  isEmptyString: function isEmptyString(values, value) {
+	    return isEmpty(value);
+	  },
+	  isEmail: function isEmail(values, value) {
+	    return validations.matchRegexp(values, value, /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i);
+	  },
+	  isUrl: function isUrl(values, value) {
+	    return validations.matchRegexp(values, value, /^(https?|s?ftp):\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i);
+	  },
+	  isTrue: function isTrue(values, value) {
+	    return value === true;
+	  },
+	  isFalse: function isFalse(values, value) {
+	    return value === false;
+	  },
+	  isNumeric: function isNumeric(values, value) {
+	    if (typeof value === 'number') {
+	      return true;
+	    }
+	    return validations.matchRegexp(values, value, /^[-+]?(?:\d*[.])?\d+$/);
+	  },
+	  isAlpha: function isAlpha(values, value) {
+	    return validations.matchRegexp(values, value, /^[A-Z]+$/i);
+	  },
+	  isAlphanumeric: function isAlphanumeric(values, value) {
+	    return validations.matchRegexp(values, value, /^[0-9A-Z]+$/i);
+	  },
+	  isInt: function isInt(values, value) {
+	    return validations.matchRegexp(values, value, /^(?:[-+]?(?:0|[1-9]\d*))$/);
+	  },
+	  isFloat: function isFloat(values, value) {
+	    return validations.matchRegexp(values, value, /^(?:[-+]?(?:\d+))?(?:\.\d*)?(?:[eE][\+\-]?(?:\d+))?$/);
+	  },
+	  isWords: function isWords(values, value) {
+	    return validations.matchRegexp(values, value, /^[A-Z\s]+$/i);
+	  },
+	  isSpecialWords: function isSpecialWords(values, value) {
+	    return validations.matchRegexp(values, value, /^[A-Z\s\u00C0-\u017F]+$/i);
+	  },
+	  isLength: function isLength(values, value, length) {
+	    return !_isExisty(value) || isEmpty(value) || value.length === length;
+	  },
+	  equals: function equals(values, value, eql) {
+	    return !_isExisty(value) || isEmpty(value) || value == eql;
+	  },
+	  equalsField: function equalsField(values, value, field) {
+	    return value == values[field];
+	  },
+	  maxLength: function maxLength(values, value, length) {
+	    return !_isExisty(value) || value.length <= length;
+	  },
+	  minLength: function minLength(values, value, length) {
+	    return !_isExisty(value) || isEmpty(value) || value.length >= length;
+	  }
+	};
+	
+	module.exports = validations;
+
+/***/ },
+/* 247 */
+/*!****************************************!*\
+  !*** ./~/form-data-to-object/index.js ***!
+  \****************************************/
+/***/ function(module, exports) {
+
+	function toObj(source) {
+	  return Object.keys(source).reduce(function (output, key) {
+	    var parentKey = key.match(/[^\[]*/i);
+	    var paths = key.match(/\[.*?\]/g) || [];
+	    paths = [parentKey[0]].concat(paths).map(function (key) {
+	      return key.replace(/\[|\]/g, '');
+	    });
+	    var currentPath = output;
+	    while (paths.length) {
+	      var pathKey = paths.shift();
+	
+	      if (pathKey in currentPath) {
+	        currentPath = currentPath[pathKey];
+	      } else {
+	        currentPath[pathKey] = paths.length ? isNaN(paths[0]) ? {} : [] : source[key];
+	        currentPath = currentPath[pathKey];
+	      }
+	    }
+	
+	    return output;
+	  }, {});
+	}
+	
+	function fromObj(obj) {
+	  function recur(newObj, propName, currVal) {
+	    if (Array.isArray(currVal) || Object.prototype.toString.call(currVal) === '[object Object]') {
+	      Object.keys(currVal).forEach(function(v) {
+	        recur(newObj, propName + "[" + v + "]", currVal[v]);
+	      });
+	      return newObj;
+	    }
+	
+	    newObj[propName] = currVal;
+	    return newObj;
+	  }
+	
+	  var keys = Object.keys(obj);
+	  return keys.reduce(function(newObj, propName) {
+	    return recur(newObj, propName, obj[propName]);
+	  }, {});
+	}
+	
+	module.exports = {
+	  fromObj: fromObj,
+	  toObj: toObj
+	}
+
+/***/ },
+/* 248 */
+/*!*************************************!*\
+  !*** ./~/formsy-react/lib/utils.js ***!
+  \*************************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+	
+	module.exports = {
+	  arraysDiffer: function arraysDiffer(a, b) {
+	    var isDifferent = false;
+	    if (a.length !== b.length) {
+	      isDifferent = true;
+	    } else {
+	      a.forEach(function (item, index) {
+	        if (!this.isSame(item, b[index])) {
+	          isDifferent = true;
+	        }
+	      }, this);
+	    }
+	    return isDifferent;
+	  },
+	
+	  objectsDiffer: function objectsDiffer(a, b) {
+	    var isDifferent = false;
+	    if (Object.keys(a).length !== Object.keys(b).length) {
+	      isDifferent = true;
+	    } else {
+	      Object.keys(a).forEach(function (key) {
+	        if (!this.isSame(a[key], b[key])) {
+	          isDifferent = true;
+	        }
+	      }, this);
+	    }
+	    return isDifferent;
+	  },
+	
+	  isSame: function isSame(a, b) {
+	    if ((typeof a === 'undefined' ? 'undefined' : _typeof(a)) !== (typeof b === 'undefined' ? 'undefined' : _typeof(b))) {
+	      return false;
+	    } else if (Array.isArray(a)) {
+	      return !this.arraysDiffer(a, b);
+	    } else if (typeof a === 'function') {
+	      return a.toString() === b.toString();
+	    } else if ((typeof a === 'undefined' ? 'undefined' : _typeof(a)) === 'object' && a !== null && b !== null) {
+	      return !this.objectsDiffer(a, b);
+	    }
+	
+	    return a === b;
+	  },
+	
+	  find: function find(collection, fn) {
+	    for (var i = 0, l = collection.length; i < l; i++) {
+	      var item = collection[i];
+	      if (fn(item)) {
+	        return item;
+	      }
+	    }
+	    return null;
+	  }
+	};
+
+/***/ },
+/* 249 */
+/*!*************************************!*\
+  !*** ./~/formsy-react/lib/Mixin.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
+	
+	var utils = __webpack_require__(/*! ./utils.js */ 248);
+	var React = global.React || __webpack_require__(/*! react */ 1);
+	
+	var convertValidationsToObject = function convertValidationsToObject(validations) {
+	
+	  if (typeof validations === 'string') {
+	
+	    return validations.split(/\,(?![^{\[]*[}\]])/g).reduce(function (validations, validation) {
+	      var args = validation.split(':');
+	      var validateMethod = args.shift();
+	
+	      args = args.map(function (arg) {
+	        try {
+	          return JSON.parse(arg);
+	        } catch (e) {
+	          return arg; // It is a string if it can not parse it
+	        }
+	      });
+	
+	      if (args.length > 1) {
+	        throw new Error('Formsy does not support multiple args on string validations. Use object format of validations instead.');
+	      }
+	
+	      validations[validateMethod] = args.length ? args[0] : true;
+	      return validations;
+	    }, {});
+	  }
+	
+	  return validations || {};
+	};
+	
+	module.exports = {
+	  getInitialState: function getInitialState() {
+	    return {
+	      _value: this.props.value,
+	      _isRequired: false,
+	      _isValid: true,
+	      _isPristine: true,
+	      _pristineValue: this.props.value,
+	      _validationError: [],
+	      _externalError: null,
+	      _formSubmitted: false
+	    };
+	  },
+	  contextTypes: {
+	    formsy: React.PropTypes.object // What about required?
+	  },
+	  getDefaultProps: function getDefaultProps() {
+	    return {
+	      validationError: '',
+	      validationErrors: {}
+	    };
+	  },
+	
+	  componentWillMount: function componentWillMount() {
+	    var configure = function () {
+	      this.setValidations(this.props.validations, this.props.required);
+	
+	      // Pass a function instead?
+	      this.context.formsy.attachToForm(this);
+	      //this.props._attachToForm(this);
+	    }.bind(this);
+	
+	    if (!this.props.name) {
+	      throw new Error('Form Input requires a name property when used');
+	    }
+	
+	    /*
+	    if (!this.props._attachToForm) {
+	      return setTimeout(function () {
+	        if (!this.isMounted()) return;
+	        if (!this.props._attachToForm) {
+	          throw new Error('Form Mixin requires component to be nested in a Form');
+	        }
+	        configure();
+	      }.bind(this), 0);
+	    }
+	    */
+	    configure();
+	  },
+	
+	  // We have to make the validate method is kept when new props are added
+	  componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+	    this.setValidations(nextProps.validations, nextProps.required);
+	  },
+	
+	  componentDidUpdate: function componentDidUpdate(prevProps) {
+	
+	    // If the value passed has changed, set it. If value is not passed it will
+	    // internally update, and this will never run
+	    if (!utils.isSame(this.props.value, prevProps.value)) {
+	      this.setValue(this.props.value);
+	    }
+	
+	    // If validations or required is changed, run a new validation
+	    if (!utils.isSame(this.props.validations, prevProps.validations) || !utils.isSame(this.props.required, prevProps.required)) {
+	      this.context.formsy.validate(this);
+	    }
+	  },
+	
+	  // Detach it when component unmounts
+	  componentWillUnmount: function componentWillUnmount() {
+	    this.context.formsy.detachFromForm(this);
+	    //this.props._detachFromForm(this);
+	  },
+	
+	  setValidations: function setValidations(validations, required) {
+	
+	    // Add validations to the store itself as the props object can not be modified
+	    this._validations = convertValidationsToObject(validations) || {};
+	    this._requiredValidations = required === true ? { isDefaultRequiredValue: true } : convertValidationsToObject(required);
+	  },
+	
+	  // We validate after the value has been set
+	  setValue: function setValue(value) {
+	    this.setState({
+	      _value: value,
+	      _isPristine: false
+	    }, function () {
+	      this.context.formsy.validate(this);
+	      //this.props._validate(this);
+	    }.bind(this));
+	  },
+	  resetValue: function resetValue() {
+	    this.setState({
+	      _value: this.state._pristineValue,
+	      _isPristine: true
+	    }, function () {
+	      this.context.formsy.validate(this);
+	      //this.props._validate(this);
+	    });
+	  },
+	  getValue: function getValue() {
+	    return this.state._value;
+	  },
+	  hasValue: function hasValue() {
+	    return this.state._value !== '';
+	  },
+	  getErrorMessage: function getErrorMessage() {
+	    var messages = this.getErrorMessages();
+	    return messages.length ? messages[0] : null;
+	  },
+	  getErrorMessages: function getErrorMessages() {
+	    return !this.isValid() || this.showRequired() ? this.state._externalError || this.state._validationError || [] : [];
+	  },
+	  isFormDisabled: function isFormDisabled() {
+	    return this.context.formsy.isFormDisabled();
+	    //return this.props._isFormDisabled();
+	  },
+	  isValid: function isValid() {
+	    return this.state._isValid;
+	  },
+	  isPristine: function isPristine() {
+	    return this.state._isPristine;
+	  },
+	  isFormSubmitted: function isFormSubmitted() {
+	    return this.state._formSubmitted;
+	  },
+	  isRequired: function isRequired() {
+	    return !!this.props.required;
+	  },
+	  showRequired: function showRequired() {
+	    return this.state._isRequired;
+	  },
+	  showError: function showError() {
+	    return !this.showRequired() && !this.isValid();
+	  },
+	  isValidValue: function isValidValue(value) {
+	    return this.context.formsy.isValidValue.call(null, this, value);
+	    //return this.props._isValidValue.call(null, this, value);
+	  }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 250 */
+/*!***********************************!*\
+  !*** ./~/formsy-react/lib/HOC.js ***!
+  \***********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var React = global.React || __webpack_require__(/*! react */ 1);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
+	module.exports = function (Component) {
+	  return React.createClass({
+	    displayName: 'Formsy(' + getDisplayName(Component) + ')',
+	    mixins: [Mixin],
+	    render: function render() {
+	      return React.createElement(Component, _extends({
+	        setValidations: this.setValidations,
+	        setValue: this.setValue,
+	        resetValue: this.resetValue,
+	        getValue: this.getValue,
+	        hasValue: this.hasValue,
+	        getErrorMessage: this.getErrorMessage,
+	        getErrorMessages: this.getErrorMessages,
+	        isFormDisabled: this.isFormDisabled,
+	        isValid: this.isValid,
+	        isPristine: this.isPristine,
+	        isFormSubmitted: this.isFormSubmitted,
+	        isRequired: this.isRequired,
+	        showRequired: this.showRequired,
+	        showError: this.showError,
+	        isValidValue: this.isValidValue
+	      }, this.props));
+	    }
+	  });
+	};
+	
+	function getDisplayName(Component) {
+	  return Component.displayName || Component.name || (typeof Component === 'string' ? Component : 'Component');
+	}
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 251 */
+/*!*****************************************!*\
+  !*** ./~/formsy-react/lib/Decorator.js ***!
+  \*****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var React = global.React || __webpack_require__(/*! react */ 1);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
+	module.exports = function () {
+	  return function (Component) {
+	    return React.createClass({
+	      mixins: [Mixin],
+	      render: function render() {
+	        return React.createElement(Component, _extends({
+	          setValidations: this.setValidations,
+	          setValue: this.setValue,
+	          resetValue: this.resetValue,
+	          getValue: this.getValue,
+	          hasValue: this.hasValue,
+	          getErrorMessage: this.getErrorMessage,
+	          getErrorMessages: this.getErrorMessages,
+	          isFormDisabled: this.isFormDisabled,
+	          isValid: this.isValid,
+	          isPristine: this.isPristine,
+	          isFormSubmitted: this.isFormSubmitted,
+	          isRequired: this.isRequired,
+	          showRequired: this.showRequired,
+	          showError: this.showError,
+	          isValidValue: this.isValidValue
+	        }, this.props));
+	      }
+	    });
+	  };
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 252 */
+/*!******************************!*\
+  !*** ./src/common/input.jsx ***!
+  \******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 245);
+	
+	var _formsyReact2 = _interopRequireDefault(_formsyReact);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var MyInput = _react2.default.createClass({
+	  displayName: 'MyInput',
+	
+	
+	  // Add the Formsy Mixin
+	  mixins: [_formsyReact2.default.Mixin],
+	
+	  // setValue() will set the value of the component, which in
+	  // turn will validate it and the rest of the form
+	  changeValue: function changeValue(event) {
+	    this.setValue(event.currentTarget[this.props.type === 'checkbox' ? 'checked' : 'value']);
+	  },
+	  render: function render() {
+	
+	    // Set a specific className based on the validation
+	    // state of this component. showRequired() is true
+	    // when the value is empty and the required prop is
+	    // passed to the input. showError() is true when the
+	    // value typed is invalid
+	    var className = 'input-group' + (this.props.className || ' ') + (this.showRequired() ? 'required' : this.showError() ? 'error' : '');
+	
+	    // An error message is returned ONLY if the component is invalid
+	    // or the server has returned an error message
+	    var errorMessage = this.getErrorMessage();
+	
+	    return _react2.default.createElement(
+	      'div',
+	      { className: className },
+	      _react2.default.createElement('input', {
+	        className: 'form-control',
+	        type: this.props.type || 'text',
+	        name: this.props.name,
+	        onChange: this.changeValue,
+	        value: this.getValue(),
+	        checked: this.props.type === 'checkbox' && this.getValue() ? 'checked' : null
+	      }),
+	      _react2.default.createElement(
+	        'span',
+	        { className: 'validation-error' },
+	        errorMessage
+	      )
+	    );
+	  }
+	});
+	
+	exports.default = MyInput;
+
+/***/ },
+/* 253 */
 /*!***************************************!*\
   !*** ./src/common/home.component.jsx ***!
   \***************************************/
@@ -28930,7 +29934,7 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
-	var _books = __webpack_require__(/*! ./books.json */ 246);
+	var _books = __webpack_require__(/*! ./books.json */ 254);
 	
 	var _books2 = _interopRequireDefault(_books);
 	
@@ -28945,7 +29949,7 @@
 	//import DATA from './books.json';
 	
 	
-	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 247);
+	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 255);
 	
 	/*console.log(books.books.book1.author);
 	const data = [books.books];
@@ -29172,7 +30176,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 246 */
+/* 254 */
 /*!*******************************!*\
   !*** ./src/common/books.json ***!
   \*******************************/
@@ -29231,7 +30235,7 @@
 	};
 
 /***/ },
-/* 247 */
+/* 255 */
 /*!******************************************!*\
   !*** ./src/scss/ContentMyBooksList.scss ***!
   \******************************************/
@@ -29240,7 +30244,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 248);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 256);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -29260,7 +30264,7 @@
 	}
 
 /***/ },
-/* 248 */
+/* 256 */
 /*!****************************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/ContentMyBooksList.scss ***!
   \****************************************************************************/
@@ -29277,7 +30281,7 @@
 
 
 /***/ },
-/* 249 */
+/* 257 */
 /*!**********************************************!*\
   !*** ./src/common/book-detail.component.jsx ***!
   \**********************************************/
@@ -29528,7 +30532,7 @@
 	exports.default = BookDetail;
 
 /***/ },
-/* 250 */
+/* 258 */
 /*!****************************************!*\
   !*** ./src/common/about.component.jsx ***!
   \****************************************/
@@ -29580,7 +30584,7 @@
 	exports.default = About;
 
 /***/ },
-/* 251 */
+/* 259 */
 /*!***********************************!*\
   !*** ./src/car/car.component.jsx ***!
   \***********************************/
@@ -29656,7 +30660,7 @@
 	exports.default = Car;
 
 /***/ },
-/* 252 */
+/* 260 */
 /*!******************************************!*\
   !*** ./src/car/car-detail.component.jsx ***!
   \******************************************/
@@ -29801,7 +30805,7 @@
 	exports.default = CarDetail;
 
 /***/ },
-/* 253 */
+/* 261 */
 /*!***************************!*\
   !*** ./src/scss/App.scss ***!
   \***************************/
@@ -29810,7 +30814,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 254);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 262);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -29830,7 +30834,7 @@
 	}
 
 /***/ },
-/* 254 */
+/* 262 */
 /*!*************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/App.scss ***!
   \*************************************************************/
