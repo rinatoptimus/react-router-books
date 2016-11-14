@@ -9,7 +9,7 @@
     "serve": "serve ./public",
     "start": "nodemon"
   },
-  "author": "Christian Nwamba",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.5.3",

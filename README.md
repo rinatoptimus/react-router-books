@@ -40,6 +40,7 @@
 #### "serve" : "serve ./public"
 #### }
 ##### 8) npm install react react-dom react-router --save
-##### 9) npm run watch
-##### 10) In another Terminal window: 
+##### 9) npm install formsy-react
+##### 10) npm run watch
+##### 11) In another Terminal window: 
 #### npm run serve
