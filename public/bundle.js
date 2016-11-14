@@ -69,34 +69,34 @@
 	
 	var _addBookComponent2 = _interopRequireDefault(_addBookComponent);
 	
-	var _authorizationComponent = __webpack_require__(/*! ./common/authorization.component.jsx */ 244);
+	var _authorizationComponent = __webpack_require__(/*! ./common/authorization.component.jsx */ 252);
 	
 	var _authorizationComponent2 = _interopRequireDefault(_authorizationComponent);
 	
-	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 253);
+	var _homeComponent = __webpack_require__(/*! ./common/home.component.jsx */ 254);
 	
 	var _homeComponent2 = _interopRequireDefault(_homeComponent);
 	
-	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 257);
+	var _bookDetailComponent = __webpack_require__(/*! ./common/book-detail.component.jsx */ 258);
 	
 	var _bookDetailComponent2 = _interopRequireDefault(_bookDetailComponent);
 	
-	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 258);
+	var _aboutComponent = __webpack_require__(/*! ./common/about.component.jsx */ 259);
 	
 	var _aboutComponent2 = _interopRequireDefault(_aboutComponent);
 	
-	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 259);
+	var _carComponent = __webpack_require__(/*! ./car/car.component.jsx */ 260);
 	
 	var _carComponent2 = _interopRequireDefault(_carComponent);
 	
-	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 260);
+	var _carDetailComponent = __webpack_require__(/*! ./car/car-detail.component.jsx */ 261);
 	
 	var _carDetailComponent2 = _interopRequireDefault(_carDetailComponent);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// Import routing components
-	__webpack_require__(/*! ./scss/App.scss */ 261);
+	__webpack_require__(/*! ./scss/App.scss */ 262);
 	
 	//import data from './common/books.json';
 	
@@ -28058,7 +28058,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: flex;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    padding-top: 0px;\n    font-size: 10px;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 0px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-authorization form span i {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
+	exports.push([module.id, "/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.container-sidebar {\n  display: flex;\n}\n.sidebar {\n  min-width: 70px;\n  z-index: 10;\n  position: absolute;\n  width: 98.5%;\n  background-color: #5F5E8A;\n  display: flex;\n  justify-content: space-between;\n  overflow: auto;\n  margin-top: 0px;\n  margin-left: -10px;\n  border-radius: 5px;\n}\n/*@include tablet {\n    position: relative;\n    width: auto;\n    flex-direction: column;\n  }*/\n.sidebar .sidebar-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  //display: flex;\n  display: table;\n  width: 100%;\n  table-layout: fixed;\n}\n/*@include tablet {\n      display: block;\n    }*/\n.sidebar .sidebar-menu li {\n  display: table-cell;\n  padding-top: 10px;\n  cursor: pointer;\n}\n.sidebar .sidebar-menu .sidebar-item a {\n  display: flex;\n  height: 64px;\n  line-height: 20px;\n  text-align: left;\n  font-size: 32px;\n  color: white;\n  padding: 0 4px;\n  text-decoration: none;\n  flex-direction: column;\n  text-align: center;\n}\n.sidebar .sidebar-menu .sidebar-item a span {\n  font-size: 13px;\n  padding-top: 7px;\n}\n.sidebar .sidebar-menu .sidebar-item.active, .sidebar .sidebar-menu .sidebar-item:hover {\n  background-color: #474769;\n}\n.sidebar .sidebar-menu:first-child {\n  margin-top: 0;\n}\n.sidebar .sidebar-menu:last-child {\n  margin-bottom: 0;\n  /*@include tablet {\n        &:first-child {\n          margin-bottom: 1em;\n        }\n      }*/\n}\n@media (min-width: 48em) {\n  .sidebar {\n    position: relative;\n    /* test width: auto;*/\n    margin-left: 0px;\n    width: 4vw;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu {\n    display: flex;\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu:last-child {}\n  .sidebar .sidebar-menu:last-child:first-child {\n    margin-bottom: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .sidebar .sidebar-menu .sidebar-item a span {\n    padding-top: 0px;\n    font-size: 10px;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.content {\n  height: 100%;\n  width: 98%;\n  padding-top: 5em;\n}\n/*@include tablet {\n    padding-top: 1em;\n  }*/\n.content .content-main {\n  margin-top: 0px;\n  /*@include tablet {\n        margin-top: 0;\n      }*/\n}\n@media (min-width: 48em) {\n  .content {\n    padding-top: 1em;\n  }\n}\n@media (min-width: 48em) {\n  .content .content-main {\n    margin-top: -15px;\n  }\n}\n.content-tabs {\n  padding-bottom: 15px;\n  border-bottom: none;\n}\n.content-tabs li .btn-secondary {\n  border-color: transparent;\n}\n.content-tabs li .btn-secondary.active {\n  background-color: #5F5E8A;\n  outline: none;\n  color: #fff;\n}\n.content-tabs li .btn-secondary.active:focus {\n  background-color: #5F5E8A;\n}\n.table-my-books thead tr .th-number {\n  //width: 4vw;\n  text-align: center;\n}\n.table-my-books tbody tr th {\n  width: 4vw;\n  background-color: #F2F2F2;\n  text-align: center;\n  vertical-align: middle;\n}\n.table-my-books tbody tr td p {\n  margin: 0;\n  padding: 0;\n}\n.table-my-books tbody tr td .item-book a {\n  text-decoration: none;\n  color: #373A3C;\n}\n.table-my-books tbody tr td .author {\n  font-size: 13px;\n  color: #c5c2bf;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.app {\n  margin-top: 0;\n}\n@media (min-width: 48em) {\n  .app {\n    margin-top: 15px;\n  }\n}\ni.fa {\n  font-size: calc(20px + 1.1vw);\n  &: ;\n}\n.sidebar-item a.active {\n  text-decoration: none;\n  color: #fff !important;\n  text-decoration: none !important;\n}\n$tablet {}\n@media (min-width: 48em) {\n  $tablet {\n    @content;\n  }\n}\n.card-top {\n  display: flex;\n  margin-bottom: 20px;\n}\n.card-top .card-title {\n  width: 100%;\n}\n.card-top button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.card-top button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n@media (min-width: 48em) {\n  .card-top {\n    margin-bottom: 10px;\n  }\n}\n.container-book-descr {\n  color: #373A3C;\n  display: flex;\n  flex-direction: column;\n}\n/*@include tablet {\n    flex-direction: row;\n  }*/\n.container-book-descr .book-profile {\n  display: flex;\n  flex-direction: row;\n  //min-width: 23%;\n}\n/*@include tablet {\n        flex-direction: column;\n      }*/\n.container-book-descr .book-profile .table-book-profile {\n  width: 75%;\n  /*@include tablet {\n            width: 100%;\n          }*/\n}\n.container-book-descr .book-profile .container-img {\n  max-width: 20vw;\n  margin-right: 15px;\n}\n/*@include tablet {\n            margin-right: 0;\n          }*/\n.container-book-descr .book-profile .container-img img {\n  width: 100%;\n}\n.container-book-descr .book-profile .container-img button.btn-back {\n  outline: none;\n  background-color: #5F5E8A;\n  color: #fff;\n}\n.container-book-descr .book-profile .container-img button.btn-back .fa-arrow-left {\n  margin-right: 5px;\n  font-size: 15px;\n}\n.container-book-descr .book-content {\n  width: 95%;\n  margin-left: 15px;\n  margin-top: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea {\n  background-color: #5F5E8A;\n}\n.container-book-descr .book-content .tab-content .tab-pane .card-textarea form fieldset .btn-success .fa-plus-circle {\n  font-size: 15px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item {\n  display: flex;\n  flex-direction: row-reverse;\n  justify-content: space-between;\n  background-color: #FAFAFA;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p {\n  margin-bottom: 0;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa {\n  color: #CCC;\n  font-size: 18px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-left {\n  margin-right: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-block blockquote p .fa-quote-right {\n  margin-left: 5px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n  min-width: 14%;\n  background-color: #fff;\n  border-bottom: none;\n}\n/*@include tablet {\n                    min-width: 7%;\n                  }*/\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header p {\n  margin-bottom: 0em;\n  margin-top: 1em;\n  font-size: 13px;\n}\n.container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header .fa {\n  margin-right: 3px;\n  font-size: 13px;\n  color: #CCC;\n}\n@media (min-width: 48em) {\n  .container-book-descr {\n    flex-direction: row;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile {\n    flex-direction: column;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .table-book-profile {\n    width: 100%;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-profile .container-img {\n    margin-right: 0;\n  }\n}\n@media (min-width: 48em) {\n  .container-book-descr .book-content .tab-content .tab-pane .citatio-item .card-header {\n    min-width: 7%;\n  }\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-add-book form .row .container-book-title .form-group label {\n  font-weight: 800;\n}\n.card-add-book form .row .container-book-author .form-group label {\n  font-weight: 800;\n}\n.card-add-book form button .fa-check-circle {\n  margin-right: 5px;\n  font-size: 15px;\n}\n/* FONT COLORS */\n/* BACKGROUND COLORS */\n.card-authorization form span i {\n  font-size: 15px;\n}\n\nbody {\n  background-color: #E7E7E7;\n}\n\n.top-bar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n  padding: 5px;\n}\n\n.top-bar .btn-success {\n  min-width: 70px;\n  padding: .5rem 1.1rem;\n}\n\n.top-bar .navbar-light .navbar-brand {\n  color: #9796B8;\n}\n\n.top-bar .navbar-light .navbar-brand .fa-bookmark {\n  padding-right: 5px;\n  font-size: 20px;\n}\n\n.top-bar .navbar-light .navbar-brand:hover {\n  color: #000;\n}\n\n@media (min-width: 48em) {\n  .top-bar {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    padding-left: 15px;\n  }\n  }\n.navbar {\n  width: 100%;\n  margin: 5px 0\n}\n@media (min-width: 48em) {\n  .navbar {\n    margin: 0 17px;\n  }\n  }\n.bg-faded {\n  background-color: #5F5E8A;\n}\n\n.navbar-light .navbar-nav .nav-link {\n  color: #fff;\n}\n\n.navbar-right {\n  width: 60vw;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: reverse;\n      -ms-flex-direction: column-reverse;\n          flex-direction: column-reverse;\n}\n\n.navbar-right .user-block {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex\n}\n\n.navbar-right .input-block {}\n\n.navbar-right li {\n  margin-top: -8px;\n  margin-bottom: -8px;\n  padding-top: 9px;\n  border-radius: 0 4px 4px 0;\n  height: 54px;\n}\n\n.navbar-right li .fa-user {\n  float: left;\n  margin-left: 10px;\n  height: 37px;\n  padding: 10px 12px;\n  border-radius: 5px;\n  background-color: #5F5E8A;\n  font-size: 15px;\n  color: #fff;\n}\n\n.navbar-right li .nav-link {\n  display: block;\n  padding: .5rem .5rem;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 13px;\n}\n\n@media (min-width: 48em) {\n  .navbar-right {\n    width: auto;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-box-pack: end;\n    -ms-flex-pack: end;\n    justify-content: flex-end;\n  }\n  }\n\n@media (min-width: 48em) {\n  .navbar-right .user-block {\n    margin-top: -8px;\n    margin-bottom: -8px;\n    margin-right: -16px;\n    background: #595881;\n    width: 200px;\n    margin-right: -15px;\n  }\n    }\n\n@media (min-width: 48em) {\n  .navbar-right .input-block {\n    padding-right: 10px;\n  }\n    }\n\n.form-top-bar .btn-sm {\n  padding: .08rem .5rem;\n}\n\n.form-top-bar .btn-secondary {\n  border-color: transparent;\n  background-color: #7978A3\n}\n\n.form-top-bar .btn-secondary:hover {\n  background-color: #474769;\n}\n\n.form-top-bar .input-group-btn:not(:last-child)>.btn {\n  margin-right: -2px;\n}\n\n.form-top-bar input.form-control {\n  min-width: 210px;\n  border: 1px solid rgba(0,0,0,.0);\n  background-color: #7978A3;\n}\n\n.form-top-bar i.fa {\n  font-size: 15px;\n  padding: 8px;\n  color: #fff;\n}\n\n/*.app {\n  display: flex;\n  padding-left: 15px;\n}*/\n", ""]);
 	
 	// exports
 
@@ -28560,347 +28560,268 @@
 	  value: true
 	});
 	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 244);
+	
+	var _formsyReact2 = _interopRequireDefault(_formsyReact);
+	
+	var _inputAddBook = __webpack_require__(/*! ./input-add-book.jsx */ 251);
+	
+	var _inputAddBook2 = _interopRequireDefault(_inputAddBook);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	__webpack_require__(/*! ./../scss/main.scss */ 236);
 	
-	var AddBook = function (_Component) {
-	  _inherits(AddBook, _Component);
-	
-	  function AddBook() {
-	    _classCallCheck(this, AddBook);
-	
-	    return _possibleConstructorReturn(this, (AddBook.__proto__ || Object.getPrototypeOf(AddBook)).apply(this, arguments));
-	  }
-	
-	  _createClass(AddBook, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
+	var AddBook = _react2.default.createClass({
+	  displayName: 'AddBook',
+	  getInitialState: function getInitialState() {
+	    return { canSubmit: false };
+	  },
+	  submit: function submit(data) {
+	    alert(JSON.stringify(data, null, 4));
+	  },
+	  enableButton: function enableButton() {
+	    this.setState({ canSubmit: true });
+	  },
+	  disableButton: function disableButton() {
+	    this.setState({ canSubmit: false });
+	  },
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      { className: 'container-fluid content-main' },
+	      _react2.default.createElement(
 	        'div',
-	        { className: 'container-fluid content-main' },
+	        { className: 'row' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row' },
+	          { className: 'col-xl-12' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-xl-12' },
+	            { className: 'card card-block card-add-book' },
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'card card-block card-add-book' },
+	              'h4',
+	              { className: 'card-title' },
+	              '\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u043F\u043E\u043B\u044F'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
 	              _react2.default.createElement(
-	                'h4',
-	                { className: 'card-title' },
-	                '\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u043F\u043E\u043B\u044F'
+	                'small',
+	                { 'class': 'text-muted' },
+	                '* - \u043F\u043E\u043B\u044F, \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0434\u043B\u044F \u0437\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F.'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _formsyReact2.default.Form,
+	              { onSubmit: this.submit, onValid: this.enableButton, onInvalid: this.disableButton, className: 'login' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row' },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'col-lg-4 container-book-title' },
+	                  _react2.default.createElement(_inputAddBook2.default, { value: '', name: 'book-title', id: 'book-title', title: '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438 *', validationError: '', required: true })
+	                )
 	              ),
+	              _react2.default.createElement('br', null),
 	              _react2.default.createElement(
-	                'form',
-	                null,
+	                'div',
+	                { className: 'row' },
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-title' },
-	                    '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435'
-	                  ),
-	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-title', placeholder: '', reqiured: true })
-	                ),
+	                  { className: 'col-lg-4 container-book-author' },
+	                  _react2.default.createElement(_inputAddBook2.default, { value: '', name: 'book-author', id: 'book-author', title: '\u0410\u0432\u0442\u043E\u0440 *', validationError: '', required: true })
+	                )
+	              ),
+	              _react2.default.createElement('br', null),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row' },
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: 'form-group' },
+	                  { className: 'col-lg-4' },
 	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-author' },
-	                    '\u0410\u0432\u0442\u043E\u0440'
+	                    'div',
+	                    { className: 'form-group' },
+	                    _react2.default.createElement(
+	                      'label',
+	                      { 'for': 'book-genre' },
+	                      '\u0416\u0430\u043D\u0440'
+	                    ),
+	                    _react2.default.createElement(
+	                      'select',
+	                      { className: 'form-control', id: 'book-genre' },
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u041F\u0440\u043E\u0437\u0430'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u0421\u0442\u0438\u0445\u0438'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u041D\u043E\u0432\u0435\u043B\u043B\u0430'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u041C\u0435\u043C\u0443\u0430\u0430\u0440\u044B'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u0424\u0435\u043B\u044C\u0435\u0442\u043E\u043D'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '\u041F\u044C\u0435\u0441\u0430'
+	                      )
+	                    )
 	                  ),
-	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-author', placeholder: '', reqiured: true })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
 	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-genre' },
-	                    '\u0416\u0430\u043D\u0440'
+	                    'div',
+	                    { className: 'form-group' },
+	                    _react2.default.createElement(
+	                      'label',
+	                      { 'for': 'book-year' },
+	                      '\u0413\u043E\u0434 \u0432\u044B\u043F\u0443\u0441\u043A\u0430'
+	                    ),
+	                    _react2.default.createElement(
+	                      'select',
+	                      { className: 'form-control', id: 'book-year' },
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2010'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2011'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2012'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2013'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2014'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2015'
+	                      ),
+	                      _react2.default.createElement(
+	                        'option',
+	                        null,
+	                        '2016'
+	                      )
+	                    )
 	                  ),
 	                  _react2.default.createElement(
-	                    'select',
-	                    { className: 'form-control', id: 'book-genre' },
+	                    'div',
+	                    { className: 'form-group' },
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u041F\u0440\u043E\u0437\u0430'
+	                      'label',
+	                      { 'for': 'book-pages' },
+	                      '\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u0440\u0430\u043D\u0438\u0446'
 	                    ),
+	                    _react2.default.createElement('input', { type: 'number', className: 'form-control', id: 'book-pages', placeholder: '' })
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'form-group' },
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u0421\u0442\u0438\u0445\u0438'
+	                      'label',
+	                      { 'for': 'book-descr' },
+	                      '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
 	                    ),
+	                    _react2.default.createElement('textarea', { className: 'form-control', id: 'book-descr', rows: '3' })
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'form-group' },
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430'
+	                      'label',
+	                      { 'for': 'book-citates' },
+	                      '\u0426\u0438\u0442\u0430\u0442\u044B'
 	                    ),
+	                    _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-citates', placeholder: '' })
+	                  ),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'form-group' },
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u041D\u043E\u0432\u0435\u043B\u043B\u0430'
+	                      'label',
+	                      { 'for': 'book-cover' },
+	                      '\u041E\u0431\u043B\u043E\u0436\u043A\u0430 \u043A\u043D\u0438\u0433\u0438'
 	                    ),
+	                    _react2.default.createElement('input', { type: 'file', className: 'form-control-file', id: 'book-cover', 'aria-describedby': 'fileHelp' }),
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u041C\u0435\u043C\u0443\u0430\u0430\u0440\u044B'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u0424\u0435\u043B\u044C\u0435\u0442\u043E\u043D'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '\u041F\u044C\u0435\u0441\u0430'
+	                      'small',
+	                      { id: 'fileHelp', className: 'form-text text-muted' },
+	                      '\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0430\u0445: jpg, png.'
 	                    )
 	                  )
-	                ),
+	                )
+	              ),
+	              _react2.default.createElement('br', null),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row' },
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: 'form-group' },
+	                  { className: 'col-lg-4' },
 	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-year' },
-	                    '\u0413\u043E\u0434 \u0432\u044B\u043F\u0443\u0441\u043A\u0430'
-	                  ),
-	                  _react2.default.createElement(
-	                    'select',
-	                    { className: 'form-control', id: 'book-year' },
+	                    'div',
+	                    { className: 'input-group' },
 	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2010'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2011'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2012'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2013'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2014'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2015'
-	                    ),
-	                    _react2.default.createElement(
-	                      'option',
-	                      null,
-	                      '2016'
+	                      'button',
+	                      { type: 'submit', className: 'btn btn-success', disabled: !this.state.canSubmit },
+	                      _react2.default.createElement('i', { className: 'fa fa-check-circle fa-2', 'aria-hidden': 'true' }),
+	                      '\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C'
 	                    )
 	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-pages' },
-	                    '\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u0440\u0430\u043D\u0438\u0446'
-	                  ),
-	                  _react2.default.createElement('input', { type: 'number', className: 'form-control', id: 'book-pages', placeholder: '' })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-descr' },
-	                    '\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u043D\u0438\u0433\u0438'
-	                  ),
-	                  _react2.default.createElement('textarea', { className: 'form-control', id: 'book-descr', rows: '3' })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-citates' },
-	                    '\u0426\u0438\u0442\u0430\u0442\u044B'
-	                  ),
-	                  _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'book-citates', placeholder: '' })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'form-group' },
-	                  _react2.default.createElement(
-	                    'label',
-	                    { 'for': 'book-cover' },
-	                    '\u041E\u0431\u043B\u043E\u0436\u043A\u0430 \u043A\u043D\u0438\u0433\u0438'
-	                  ),
-	                  _react2.default.createElement('input', { type: 'file', className: 'form-control-file', id: 'book-cover', 'aria-describedby': 'fileHelp' }),
-	                  _react2.default.createElement(
-	                    'small',
-	                    { id: 'fileHelp', className: 'form-text text-muted' },
-	                    '\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0430\u0445: jpg, png.'
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'button',
-	                  { type: 'submit', className: 'btn btn-success' },
-	                  _react2.default.createElement('i', { className: 'fa fa-check-circle fa-2', 'aria-hidden': 'true' }),
-	                  '\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C'
 	                )
 	              )
 	            )
 	          )
 	        )
-	      );
-	    }
-	  }]);
-	
-	  return AddBook;
-	}(_react.Component);
+	      )
+	    );
+	  }
+	});
 	
 	exports.default = AddBook;
 
 /***/ },
 /* 244 */
-/*!************************************************!*\
-  !*** ./src/common/authorization.component.jsx ***!
-  \************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-			value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 172);
-	
-	var _formsyReact = __webpack_require__(/*! formsy-react */ 245);
-	
-	var _formsyReact2 = _interopRequireDefault(_formsyReact);
-	
-	var _input = __webpack_require__(/*! ./input.jsx */ 252);
-	
-	var _input2 = _interopRequireDefault(_input);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	__webpack_require__(/*! ./../scss/main.scss */ 236);
-	
-	var Authorization = _react2.default.createClass({
-			displayName: 'Authorization',
-			getInitialState: function getInitialState() {
-					return { canSubmit: false };
-			},
-			submit: function submit(data) {
-					alert(JSON.stringify(data, null, 4));
-			},
-			enableButton: function enableButton() {
-					this.setState({ canSubmit: true });
-			},
-			disableButton: function disableButton() {
-					this.setState({ canSubmit: false });
-			},
-			render: function render() {
-					return _react2.default.createElement(
-							'div',
-							{ className: 'container-fluid content-main' },
-							_react2.default.createElement(
-									'div',
-									{ className: 'row' },
-									_react2.default.createElement(
-											'div',
-											{ className: 'col-xl-12' },
-											_react2.default.createElement(
-													'div',
-													{ className: 'card card-block card-authorization' },
-													_react2.default.createElement(
-															'h4',
-															{ className: 'card-title' },
-															'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043B\u043E\u0433\u0438\u043D \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'
-													),
-													_react2.default.createElement(
-															_formsyReact2.default.Form,
-															{ onSubmit: this.submit, onValid: this.enableButton, onInvalid: this.disableButton, className: 'login' },
-															_react2.default.createElement(
-																	'div',
-																	{ className: 'row' },
-																	_react2.default.createElement(
-																			'div',
-																			{ className: 'col-lg-4' },
-																			_react2.default.createElement(
-																					'div',
-																					{ className: 'input-group' },
-																					_react2.default.createElement(_input2.default, { value: '', name: 'email', title: 'Email', validations: 'isEmail', validationError: '\u041F\u043E\u0445\u043E\u0436\u0435, \u044D\u0442\u043E \u043D\u0435 \u0432\u0430\u0448 email. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437.', required: true })
-																			)
-																	)
-															),
-															_react2.default.createElement('br', null),
-															_react2.default.createElement(
-																	'div',
-																	{ className: 'row' },
-																	_react2.default.createElement(
-																			'div',
-																			{ className: 'col-lg-4' },
-																			_react2.default.createElement(
-																					'div',
-																					{ className: 'input-group' },
-																					_react2.default.createElement(_input2.default, { value: '', name: 'password', title: 'Password', type: 'password', required: true }),
-																					_react2.default.createElement('br', null),
-																					_react2.default.createElement(
-																							'button',
-																							{ className: 'btn btn-success', type: 'submit', disabled: !this.state.canSubmit },
-																							'\u0412\u043E\u0439\u0442\u0438'
-																					)
-																			)
-																	)
-															)
-													)
-											)
-									)
-							)
-					);
-			}
-	});
-	
-	exports.default = Authorization;
-
-/***/ },
-/* 245 */
 /*!************************************!*\
   !*** ./~/formsy-react/lib/main.js ***!
   \************************************/
@@ -28916,12 +28837,12 @@
 	
 	var React = global.React || __webpack_require__(/*! react */ 1);
 	var Formsy = {};
-	var validationRules = __webpack_require__(/*! ./validationRules.js */ 246);
-	var formDataToObject = __webpack_require__(/*! form-data-to-object */ 247);
-	var utils = __webpack_require__(/*! ./utils.js */ 248);
-	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
-	var HOC = __webpack_require__(/*! ./HOC.js */ 250);
-	var Decorator = __webpack_require__(/*! ./Decorator.js */ 251);
+	var validationRules = __webpack_require__(/*! ./validationRules.js */ 245);
+	var formDataToObject = __webpack_require__(/*! form-data-to-object */ 246);
+	var utils = __webpack_require__(/*! ./utils.js */ 247);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 248);
+	var HOC = __webpack_require__(/*! ./HOC.js */ 249);
+	var Decorator = __webpack_require__(/*! ./Decorator.js */ 250);
 	var options = {};
 	var emptyArray = [];
 	
@@ -29369,7 +29290,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 246 */
+/* 245 */
 /*!***********************************************!*\
   !*** ./~/formsy-react/lib/validationRules.js ***!
   \***********************************************/
@@ -29457,7 +29378,7 @@
 	module.exports = validations;
 
 /***/ },
-/* 247 */
+/* 246 */
 /*!****************************************!*\
   !*** ./~/form-data-to-object/index.js ***!
   \****************************************/
@@ -29511,7 +29432,7 @@
 	}
 
 /***/ },
-/* 248 */
+/* 247 */
 /*!*************************************!*\
   !*** ./~/formsy-react/lib/utils.js ***!
   \*************************************/
@@ -29576,7 +29497,7 @@
 	};
 
 /***/ },
-/* 249 */
+/* 248 */
 /*!*************************************!*\
   !*** ./~/formsy-react/lib/Mixin.js ***!
   \*************************************/
@@ -29584,7 +29505,7 @@
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
 	
-	var utils = __webpack_require__(/*! ./utils.js */ 248);
+	var utils = __webpack_require__(/*! ./utils.js */ 247);
 	var React = global.React || __webpack_require__(/*! react */ 1);
 	
 	var convertValidationsToObject = function convertValidationsToObject(validations) {
@@ -29759,7 +29680,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 250 */
+/* 249 */
 /*!***********************************!*\
   !*** ./~/formsy-react/lib/HOC.js ***!
   \***********************************/
@@ -29770,7 +29691,7 @@
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
 	var React = global.React || __webpack_require__(/*! react */ 1);
-	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 248);
 	module.exports = function (Component) {
 	  return React.createClass({
 	    displayName: 'Formsy(' + getDisplayName(Component) + ')',
@@ -29803,7 +29724,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 251 */
+/* 250 */
 /*!*****************************************!*\
   !*** ./~/formsy-react/lib/Decorator.js ***!
   \*****************************************/
@@ -29814,7 +29735,7 @@
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
 	var React = global.React || __webpack_require__(/*! react */ 1);
-	var Mixin = __webpack_require__(/*! ./Mixin.js */ 249);
+	var Mixin = __webpack_require__(/*! ./Mixin.js */ 248);
 	module.exports = function () {
 	  return function (Component) {
 	    return React.createClass({
@@ -29844,7 +29765,191 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
+/* 251 */
+/*!***************************************!*\
+  !*** ./src/common/input-add-book.jsx ***!
+  \***************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 244);
+	
+	var _formsyReact2 = _interopRequireDefault(_formsyReact);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var MyInput = _react2.default.createClass({
+	  displayName: 'MyInput',
+	
+	
+	  // Add the Formsy Mixin
+	  mixins: [_formsyReact2.default.Mixin],
+	
+	  // setValue() will set the value of the component, which in
+	  // turn will validate it and the rest of the form
+	  changeValue: function changeValue(event) {
+	    this.setValue(event.currentTarget[this.props.type === 'checkbox' ? 'checked' : 'value']);
+	  },
+	  render: function render() {
+	
+	    // Set a specific className based on the validation
+	    // state of this component. showRequired() is true
+	    // when the value is empty and the required prop is
+	    // passed to the input. showError() is true when the
+	    // value typed is invalid
+	    var className = 'form-group' + (this.props.className || ' ') + (this.showRequired() ? 'required' : this.showError() ? 'error' : '');
+	
+	    // An error message is returned ONLY if the component is invalid
+	    // or the server has returned an error message
+	    var errorMessage = this.getErrorMessage();
+	
+	    return _react2.default.createElement(
+	      'div',
+	      { className: className },
+	      _react2.default.createElement(
+	        'label',
+	        { htmlFor: this.props.name },
+	        this.props.title
+	      ),
+	      _react2.default.createElement('input', {
+	        className: 'form-control',
+	        type: this.props.type || 'text',
+	        name: this.props.name,
+	        onChange: this.changeValue,
+	        value: this.getValue(),
+	        checked: this.props.type === 'checkbox' && this.getValue() ? 'checked' : null
+	      }),
+	      _react2.default.createElement(
+	        'span',
+	        { className: 'validation-error' },
+	        errorMessage
+	      )
+	    );
+	  }
+	});
+	
+	exports.default = MyInput;
+
+/***/ },
 /* 252 */
+/*!************************************************!*\
+  !*** ./src/common/authorization.component.jsx ***!
+  \************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+			value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 244);
+	
+	var _formsyReact2 = _interopRequireDefault(_formsyReact);
+	
+	var _input = __webpack_require__(/*! ./input.jsx */ 253);
+	
+	var _input2 = _interopRequireDefault(_input);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	__webpack_require__(/*! ./../scss/main.scss */ 236);
+	
+	var Authorization = _react2.default.createClass({
+			displayName: 'Authorization',
+			getInitialState: function getInitialState() {
+					return { canSubmit: false };
+			},
+			submit: function submit(data) {
+					alert(JSON.stringify(data, null, 4));
+			},
+			enableButton: function enableButton() {
+					this.setState({ canSubmit: true });
+			},
+			disableButton: function disableButton() {
+					this.setState({ canSubmit: false });
+			},
+			render: function render() {
+					return _react2.default.createElement(
+							'div',
+							{ className: 'container-fluid content-main' },
+							_react2.default.createElement(
+									'div',
+									{ className: 'row' },
+									_react2.default.createElement(
+											'div',
+											{ className: 'col-xl-12' },
+											_react2.default.createElement(
+													'div',
+													{ className: 'card card-block card-authorization' },
+													_react2.default.createElement(
+															'h4',
+															{ className: 'card-title' },
+															'\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043B\u043E\u0433\u0438\u043D \u0438 \u043F\u0430\u0440\u043E\u043B\u044C'
+													),
+													_react2.default.createElement(
+															_formsyReact2.default.Form,
+															{ onSubmit: this.submit, onValid: this.enableButton, onInvalid: this.disableButton, className: 'login' },
+															_react2.default.createElement(
+																	'div',
+																	{ className: 'row' },
+																	_react2.default.createElement(
+																			'div',
+																			{ className: 'col-lg-4' },
+																			_react2.default.createElement(
+																					'div',
+																					{ className: 'input-group' },
+																					_react2.default.createElement(_input2.default, { value: '', name: 'email', title: 'Email', validations: 'isEmail', validationError: '\u041F\u043E\u0445\u043E\u0436\u0435, \u044D\u0442\u043E \u043D\u0435 \u0432\u0430\u0448 email. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437.', required: true })
+																			)
+																	)
+															),
+															_react2.default.createElement('br', null),
+															_react2.default.createElement(
+																	'div',
+																	{ className: 'row' },
+																	_react2.default.createElement(
+																			'div',
+																			{ className: 'col-lg-4' },
+																			_react2.default.createElement(
+																					'div',
+																					{ className: 'input-group' },
+																					_react2.default.createElement(_input2.default, { value: '', name: 'password', title: 'Password', type: 'password', required: true }),
+																					_react2.default.createElement('br', null),
+																					_react2.default.createElement(
+																							'button',
+																							{ className: 'btn btn-success', type: 'submit', disabled: !this.state.canSubmit },
+																							'\u0412\u043E\u0439\u0442\u0438'
+																					)
+																			)
+																	)
+															)
+													)
+											)
+									)
+							)
+					);
+			}
+	});
+	
+	exports.default = Authorization;
+
+/***/ },
+/* 253 */
 /*!******************************!*\
   !*** ./src/common/input.jsx ***!
   \******************************/
@@ -29860,7 +29965,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _formsyReact = __webpack_require__(/*! formsy-react */ 245);
+	var _formsyReact = __webpack_require__(/*! formsy-react */ 244);
 	
 	var _formsyReact2 = _interopRequireDefault(_formsyReact);
 	
@@ -29914,7 +30019,7 @@
 	exports.default = MyInput;
 
 /***/ },
-/* 253 */
+/* 254 */
 /*!***************************************!*\
   !*** ./src/common/home.component.jsx ***!
   \***************************************/
@@ -29934,7 +30039,7 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
-	var _books = __webpack_require__(/*! ./books.json */ 254);
+	var _books = __webpack_require__(/*! ./books.json */ 255);
 	
 	var _books2 = _interopRequireDefault(_books);
 	
@@ -29949,7 +30054,7 @@
 	//import DATA from './books.json';
 	
 	
-	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 255);
+	__webpack_require__(/*! ./../scss/ContentMyBooksList.scss */ 256);
 	
 	/*console.log(books.books.book1.author);
 	const data = [books.books];
@@ -30176,7 +30281,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 254 */
+/* 255 */
 /*!*******************************!*\
   !*** ./src/common/books.json ***!
   \*******************************/
@@ -30235,7 +30340,7 @@
 	};
 
 /***/ },
-/* 255 */
+/* 256 */
 /*!******************************************!*\
   !*** ./src/scss/ContentMyBooksList.scss ***!
   \******************************************/
@@ -30244,7 +30349,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 256);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./ContentMyBooksList.scss */ 257);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -30264,7 +30369,7 @@
 	}
 
 /***/ },
-/* 256 */
+/* 257 */
 /*!****************************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/ContentMyBooksList.scss ***!
   \****************************************************************************/
@@ -30281,7 +30386,7 @@
 
 
 /***/ },
-/* 257 */
+/* 258 */
 /*!**********************************************!*\
   !*** ./src/common/book-detail.component.jsx ***!
   \**********************************************/
@@ -30532,7 +30637,7 @@
 	exports.default = BookDetail;
 
 /***/ },
-/* 258 */
+/* 259 */
 /*!****************************************!*\
   !*** ./src/common/about.component.jsx ***!
   \****************************************/
@@ -30584,7 +30689,7 @@
 	exports.default = About;
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!***********************************!*\
   !*** ./src/car/car.component.jsx ***!
   \***********************************/
@@ -30660,7 +30765,7 @@
 	exports.default = Car;
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!******************************************!*\
   !*** ./src/car/car-detail.component.jsx ***!
   \******************************************/
@@ -30805,7 +30910,7 @@
 	exports.default = CarDetail;
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!***************************!*\
   !*** ./src/scss/App.scss ***!
   \***************************/
@@ -30814,7 +30919,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 262);
+	var content = __webpack_require__(/*! !./../../~/css-loader!./../../~/postcss-loader!./App.scss */ 263);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(/*! ./../../~/style-loader/addStyles.js */ 239)(content, {});
@@ -30834,7 +30939,7 @@
 	}
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!*************************************************************!*\
   !*** ./~/css-loader!./~/postcss-loader!./src/scss/App.scss ***!
   \*************************************************************/

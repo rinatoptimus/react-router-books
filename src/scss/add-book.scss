@@ -2,6 +2,24 @@
 
 .card-add-book {
 	form {
+		.row {
+			.container-book-title {				
+				.form-group {
+					label {
+						font-weight: 800;
+					}
+				}
+			}
+		}
+		.row {
+			.container-book-author {				
+				.form-group {
+					label {
+						font-weight: 800;
+					}
+				}
+			}
+		}
 		button {
 			.fa-check-circle {
 				margin-right: 5px;
