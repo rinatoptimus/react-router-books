@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-
-//import DATA from './books.json';
 import data from './books.json';
 
 require ('./../scss/ContentMyBooksList.scss'); 

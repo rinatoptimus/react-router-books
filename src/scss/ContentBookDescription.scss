@@ -25,27 +25,17 @@
   color: $grey-dark;
   display: flex;
   flex-direction: column;
-  /*@include tablet {
-    flex-direction: row;
-  }*/
   @media (min-width: 48em) {
     flex-direction: row;
   }
     .book-profile {
       display: flex;
       flex-direction: row;
-      //min-width: 23%;
-      /*@include tablet {
-        flex-direction: column;
-      }*/
       @media (min-width: 48em) {
         flex-direction: column;
       }
         .table-book-profile {
           width: 75%;
-          /*@include tablet {
-            width: 100%;
-          }*/
           @media (min-width: 48em) {
             width: 100%;
           }
@@ -53,9 +43,6 @@
         .container-img {
           max-width: 20vw;
           margin-right: 15px;
-          /*@include tablet {
-            margin-right: 0;
-          }*/
           @media (min-width: 48em) {
             margin-right: 0;
           }
@@ -117,9 +104,6 @@
                   min-width: 14%;
                   background-color: $white;
                   border-bottom: none;
-                  /*@include tablet {
-                    min-width: 7%;
-                  }*/
                   @media (min-width: 48em) {
                     min-width: 7%;
                   }

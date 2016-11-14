@@ -51,7 +51,6 @@ const Authorization = React.createClass({
 	            </div>
 	        </div>
 	  </div>
-
     );
   }
 });
